@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+//神秘的随机数据生成器 
 using namespace std;
 char cc[]={'0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f'};
 int maxn = 1000000; 

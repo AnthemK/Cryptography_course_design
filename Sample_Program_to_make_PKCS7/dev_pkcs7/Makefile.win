@@ -1,0 +1,28 @@
+# Project: testpkcs
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = pkcs7-gen.o
+LINKOBJ  = pkcs7-gen.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"D:/devc++/WinNTL-11_4_3" -static-libgcc libcrypto.a libssl.a "C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib/libws2_32.a" -m64
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include" -I"D:/devc++/WinNTL-11_4_3/include" -I"D:/msys64/usr/local/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++" -I"D:/devc++/WinNTL-11_4_3/include" -I"D:/msys64/usr/local/include"
+BIN      = testpkcs.exe
+CXXFLAGS = $(CXXINCS) -O3 -m64 -std=c++11
+CFLAGS   = $(INCS) -O3 -m64 -std=c++11
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+pkcs7-gen.o: pkcs7-gen.cpp
+	$(CPP) -c pkcs7-gen.cpp -o pkcs7-gen.o $(CXXFLAGS)
