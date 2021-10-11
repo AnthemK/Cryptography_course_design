@@ -1,0 +1,150 @@
+afterinput-Initial = 0   
+afterfirstattack-Initial = 0   
+d29e8318
+afterinput-Initial = 0   
+afterfirstattack-Initial = 0   
+32f2d48a
+afterinput-Initial = 16   
+afterfirstattack-Initial = 16   
+7d7e11f6
+afterinput-Initial = 16   
+afterfirstattack-Initial = 16   
+e4c574b4
+afterinput-Initial = 32   
+afterfirstattack-Initial = 32   
+1b27af50
+afterinput-Initial = 32   
+afterfirstattack-Initial = 32   
+bb2dacb2
+afterinput-Initial = 32   
+afterfirstattack-Initial = 32   
+55d3a5e7
+afterinput-Initial = 47   
+afterfirstattack-Initial = 47   
+ad8a498e
+afterinput-Initial = 47   
+afterfirstattack-Initial = 47   
+fe990795
+afterinput-Initial = 47   
+afterfirstattack-Initial = 63   
+4fdbefbe
+afterinput-Initial = 63   
+afterfirstattack-Initial = 63   
+70e4ab95
+afterinput-Initial = 63   
+afterfirstattack-Initial = 63   
+23269e8a
+afterinput-Initial = 79   
+afterfirstattack-Initial = 79   
+8327861d
+afterinput-Initial = 79   
+afterfirstattack-Initial = 79   
+ad9e6688
+afterinput-Initial = 79   
+afterfirstattack-Initial = 94   
+a2820592
+afterinput-Initial = 110   
+afterfirstattack-Initial = 110   
+e903d91c
+afterinput-Initial = 110   
+afterfirstattack-Initial = 125   
+e9299ceb
+afterinput-Initial = 125   
+afterfirstattack-Initial = 125   
+53c1aa06
+afterinput-Initial = 125   
+afterfirstattack-Initial = 141   
+782ca70f
+afterinput-Initial = 141   
+afterfirstattack-Initial = 141   
+5ec1102f
+afterinput-Initial = 141   
+afterfirstattack-Initial = 141   
+dfd54bee
+afterinput-Initial = 157   
+afterfirstattack-Initial = 157   
+74078966
+afterinput-Initial = 157   
+afterfirstattack-Initial = 157   
+d35b0298
+afterinput-Initial = 157   
+afterfirstattack-Initial = 172   
+bdb9c25c
+afterinput-Initial = 172   
+afterfirstattack-Initial = 172   
+e731744a
+afterinput-Initial = 172   
+afterfirstattack-Initial = 172   
+fcfd5f11
+afterinput-Initial = 188   
+afterfirstattack-Initial = 188   
+2dba2117
+afterinput-Initial = 204   
+afterfirstattack-Initial = 204   
+be298e6a
+afterinput-Initial = 204   
+afterfirstattack-Initial = 204   
+8b7e066f
+afterinput-Initial = 219   
+afterfirstattack-Initial = 219   
+bfd3ca5a
+afterinput-Initial = 219   
+afterfirstattack-Initial = 235   
+8020db90
+afterinput-Initial = 235   
+afterfirstattack-Initial = 235   
+13d7a596
+afterinput-Initial = 235   
+afterfirstattack-Initial = 235   
+38b8be4b
+afterinput-Initial = 250   
+afterfirstattack-Initial = 250   
+4000c810
+afterinput-Initial = 250   
+afterfirstattack-Initial = 250   
+58f81caa
+afterinput-Initial = 250   
+afterfirstattack-Initial = 266   
+3528e7e6
+afterinput-Initial = 266   
+afterfirstattack-Initial = 266   
+5713dc80
+afterinput-Initial = 266   
+afterfirstattack-Initial = 266   
+bc747338
+afterinput-Initial = 266   
+afterfirstattack-Initial = 282   
+7485f45a
+afterinput-Initial = 282   
+afterfirstattack-Initial = 282   
+3b9f5e5d
+afterinput-Initial = 282   
+afterfirstattack-Initial = 282   
+86a47c15
+afterinput-Initial = 297   
+afterfirstattack-Initial = 297   
+f8675374
+afterinput-Initial = 297   
+afterfirstattack-Initial = 297   
+3354f7f7
+afterinput-Initial = 297   
+afterfirstattack-Initial = 297   
+741d5000
+afterinput-Initial = 313   
+afterfirstattack-Initial = 313   
+ca2d893c
+afterinput-Initial = 313   
+afterfirstattack-Initial = 313   
+6a4d2453
+afterinput-Initial = 313   
+afterfirstattack-Initial = 313   
+b28bd5bc
+afterinput-Initial = 329   
+afterfirstattack-Initial = 329   
+db0c07b2
+afterinput-Initial = 329   
+afterfirstattack-Initial = 329   
+68db419d
+afterinput-Initial = 329   
+afterfirstattack-Initial = 344   
+0d18e0d1

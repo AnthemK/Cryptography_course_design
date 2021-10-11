@@ -1,0 +1,180 @@
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 0   
+Max ans :
+ans = 2500   maxnowwa = 0   XorX[pls] = 0   XorU4[pls] = 0   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   
+In PossibleKey:
+PossibleKey[pls][i].second = 64   PossibleKey[pls][i].second = 160   PossibleKey[pls][i].second = 96   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 112   
+Max ans :
+ans = 209   maxnowwa = 96   XorX[pls] = 3840   XorU4[pls] = 80   
+
+/////////////////////////////////////////////////////
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 224   PossibleKey[pls][i].second = 32   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 176   
+Max ans :
+ans = 182   maxnowwa = 32   XorX[pls] = 3840   XorU4[pls] = 144   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   
+In PossibleKey:
+PossibleKey[pls][i].second = 192   PossibleKey[pls][i].second = 224   PossibleKey[pls][i].second = 128   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 240   
+Max ans :
+ans = 185   maxnowwa = 224   XorX[pls] = 3840   XorU4[pls] = 240   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   
+In PossibleKey:
+PossibleKey[pls][i].second = 224   PossibleKey[pls][i].second = 192   PossibleKey[pls][i].second = 32   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 112   
+Max ans :
+ans = 180   maxnowwa = 192   XorX[pls] = 6396   XorU4[pls] = 208   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   
+In PossibleKey:
+PossibleKey[pls][i].second = 64   PossibleKey[pls][i].second = 16   PossibleKey[pls][i].second = 208   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 240   
+Max ans :
+ans = 181   maxnowwa = 208   XorX[pls] = 8483   XorU4[pls] = 208   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   
+In PossibleKey:
+PossibleKey[pls][i].second = 112   PossibleKey[pls][i].second = 192   PossibleKey[pls][i].second = 128   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 48   
+Max ans :
+ans = 186   maxnowwa = 112   XorX[pls] = 12295   XorU4[pls] = 112   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   
+In PossibleKey:
+PossibleKey[pls][i].second = 224   PossibleKey[pls][i].second = 16   PossibleKey[pls][i].second = 96   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 144   
+Max ans :
+ans = 180   maxnowwa = 96   XorX[pls] = 12295   XorU4[pls] = 128   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   
+In PossibleKey:
+PossibleKey[pls][i].second = 64   PossibleKey[pls][i].second = 160   PossibleKey[pls][i].second = 96   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 128   
+Max ans :
+ans = 194   maxnowwa = 128   XorX[pls] = 18977   XorU4[pls] = 208   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   
+In PossibleKey:
+PossibleKey[pls][i].second = 128   PossibleKey[pls][i].second = 16   PossibleKey[pls][i].second = 80   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 192   
+Max ans :
+ans = 189   maxnowwa = 16   XorX[pls] = 20253   XorU4[pls] = 224   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 208   PossibleKey[pls][i].second = 160   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 80   
+Max ans :
+ans = 183   maxnowwa = 208   XorX[pls] = 25978   XorU4[pls] = 144   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 96   PossibleKey[pls][i].second = 32   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 64   
+Max ans :
+ans = 180   maxnowwa = 64   XorX[pls] = 26153   XorU4[pls] = 32   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 96   PossibleKey[pls][i].second = 112   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 64   
+Max ans :
+ans = 188   maxnowwa = 96   XorX[pls] = 28896   XorU4[pls] = 64   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   *ix = 0   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 0   
+Max ans :
+ans = 215   maxnowwa = 0   XorX[pls] = 28947   XorU4[pls] = 0   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   *ix = 0   *ix = 192   
+In PossibleKey:
+PossibleKey[pls][i].second = 224   PossibleKey[pls][i].second = 192   PossibleKey[pls][i].second = 176   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 48   
+Max ans :
+ans = 188   maxnowwa = 192   XorX[pls] = 29062   XorU4[pls] = 160   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   *ix = 0   *ix = 192   
+In PossibleKey:
+PossibleKey[pls][i].second = 96   PossibleKey[pls][i].second = 80   PossibleKey[pls][i].second = 112   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 64   
+Max ans :
+ans = 180   maxnowwa = 64   XorX[pls] = 30464   XorU4[pls] = 32   
+////////////////////////////////////////////
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   *ix = 0   *ix = 192   *ix = 64   *ix = 96   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 96   PossibleKey[pls][i].second = 32   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 64   
+Max ans :
+ans = 191   maxnowwa = 64   XorX[pls] = 47616   XorU4[pls] = 32   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   *ix = 0   *ix = 192   *ix = 64   *ix = 96   *ix = 0   *ix = 128   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 128   PossibleKey[pls][i].second = 224   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 96   
+Max ans :
+ans = 181   maxnowwa = 0   XorX[pls] = 48575   XorU4[pls] = 48   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   *ix = 0   *ix = 192   *ix = 64   *ix = 96   *ix = 0   *ix = 128   *ix = 96   *ix = 224   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 96   PossibleKey[pls][i].second = 128   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 224   
+Max ans :
+ans = 206   maxnowwa = 96   XorX[pls] = 57358   XorU4[pls] = 128   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   *ix = 0   *ix = 192   *ix = 64   *ix = 96   *ix = 0   *ix = 128   *ix = 96   *ix = 224   *ix = 64   
+In PossibleKey:
+PossibleKey[pls][i].second = 64   PossibleKey[pls][i].second = 144   PossibleKey[pls][i].second = 176   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 192   
+Max ans :
+ans = 182   maxnowwa = 64   XorX[pls] = 57469   XorU4[pls] = 160   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   *ix = 0   *ix = 192   *ix = 64   *ix = 96   *ix = 0   *ix = 128   *ix = 96   *ix = 224   *ix = 64   *ix = 96   *ix = 224   
+In PossibleKey:
+PossibleKey[pls][i].second = 176   PossibleKey[pls][i].second = 224   PossibleKey[pls][i].second = 96   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 48   
+Max ans :
+ans = 183   maxnowwa = 96   XorX[pls] = 59145   XorU4[pls] = 128   
+
+pls = 3   
+In Linear_attck_ans:
+*ix = 0   *ix = 96   *ix = 32   *ix = 224   *ix = 208   *ix = 112   *ix = 128   *ix = 16   *ix = 208   *ix = 96   *ix = 0   *ix = 192   *ix = 64   *ix = 96   *ix = 0   *ix = 128   *ix = 96   *ix = 224   *ix = 64   *ix = 96   *ix = 224   *ix = 144   
+In PossibleKey:
+PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 176   PossibleKey[pls][i].second = 32   PossibleKey[pls][i].second = 0   PossibleKey[pls][i].second = 144   
+Max ans :
+ans = 189   maxnowwa = 144   XorX[pls] = 64537   XorU4[pls] = 208   
+
+
+
