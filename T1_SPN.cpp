@@ -12,7 +12,11 @@ int Rev_MAP_SPN_PI_S[maxm];   //上一个得到逆
 int SPN_Pi_P[maxn]={0,4,8,12,1,5,9,13,2,6,10,14,3,7,11,15};   //课本上的p盒 
 //int Rev_SPN_Pi_P[maxn]={0,4,8,12,1,5,9,13,2,6,10,14,3,7,11,15};  //课本上的p盒的逆 
 int MAP_SPN_PI_P[maxm],Rev_MAP_SPN_PI_P[maxm];   //把四个p盒结合成一个大S盒 ,以及他的逆 
+<<<<<<< HEAD
 int MAP_SPN_SP[maxm],Rev_MAP_SPN_SP[maxm];   //考虑到函数里 
+=======
+int MAP_SPN_SP[maxm],Rev_MAP_SPN_SP[maxm];   //考虑到SPN的加密轮里SP经常连续出现，故打这个表可以加速 
+>>>>>>> 1609f65 (init)
 
 char NumtoChar[]={'0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f'};
 inline int read(){
@@ -27,7 +31,11 @@ char cc;
 struct Nod
 {
 	int Infor[maxn],Key[maxn],nowval;
+<<<<<<< HEAD
 	void GetinInfor()
+=======
+	void GetinInfor()             //输入明/密文  4个16进制数 
+>>>>>>> 1609f65 (init)
 	{
 		cc=getchar();
 		while((!isdigit(cc))&&(cc>'f'||cc<'a')) cc=getchar();
@@ -40,7 +48,11 @@ struct Nod
 		nowval=MakeOne();
 		return;
 	}
+<<<<<<< HEAD
 	void GetinKey()
+=======
+	void GetinKey()      //输入密钥    4+Nr个16进制数 
+>>>>>>> 1609f65 (init)
 	{
 		cc=getchar();
 		while((!isdigit(cc))&&(cc>'f'||cc<'a')) cc=getchar();
@@ -52,12 +64,20 @@ struct Nod
 		}
 		return;
 	}	
+<<<<<<< HEAD
 	void PrintInfor()
+=======
+	void PrintInfor()   //输出明/密文 
+>>>>>>> 1609f65 (init)
 	{
 		for(int i=1;i<=4;++i) putchar(NumtoChar[Infor[i]]);
 		return;
 	}
+<<<<<<< HEAD
 	void Print()
+=======
+	void Print()   //输出全部信息 
+>>>>>>> 1609f65 (init)
 	{
 		cout<<"*******************************"<<endl<<"Infor: ";
 		for(int i=1;i<=4;++i) putchar((Infor[i]>=10)?(Infor[i]-10+'a'):(Infor[i]^'0'));
@@ -66,6 +86,7 @@ struct Nod
 		cout<<endl;
 		return;
 	}
+<<<<<<< HEAD
 	int MakeOne() {return (Infor[1]<<12)|(Infor[2]<<8)|(Infor[3]<<4)|(Infor[4]);} 
 	void DivideOne(int OneNum)
 	{
@@ -81,18 +102,45 @@ struct Nod
 			Rev_MAP_SPN_PI_S[MAP_SPN_PI_S[val]]=val;
 			
 			DivideOne(val);Cnt=0;
+=======
+	int MakeOne() {return (Infor[1]<<12)|(Infor[2]<<8)|(Infor[3]<<4)|(Infor[4]);}    //把四个分组存储的Infor合成为一个数 
+	void DivideOne(int OneNum)      //把OneNum分成四组放到四个Infor里面 
+	{
+		for(register int i=4;i>=1;i--) Infor[i]=OneNum&0xf,OneNum>>=4;return;
+	}
+	void Init()   //初始化 
+	{
+		for(register int val=0;val<maxdig;++val)      //枚举映射的初始值 
+		{
+			DivideOne(val);      //放到Infor里 
+			for(register int i=1;i<=4;++i) Infor[i]=SPN_Pi_S[Infor[i]];    
+			MAP_SPN_PI_S[val]=MakeOne();       //得到大S表 
+			Rev_MAP_SPN_PI_S[MAP_SPN_PI_S[val]]=val;   //得到其反表 
+			
+			DivideOne(val);Cnt=0;     
+>>>>>>> 1609f65 (init)
 			for(register int i=1;i<=4;++i)
 			{
 				for(register int j=(1<<3);j;j>>=1)
 				{
+<<<<<<< HEAD
 					Bool_Buffer[SPN_Pi_P[Cnt]]=(Infor[i]&j)?1:0;
+=======
+					Bool_Buffer[SPN_Pi_P[Cnt]]=(Infor[i]&j)?1:0;         //存储的是对应位置为1还是0 
+>>>>>>> 1609f65 (init)
 					Cnt++;
 				}
 			}
 			for(register int i=1;i<=4;++i)
 				Cnt=((i-1)<<2),Infor[i]=(Bool_Buffer[Cnt]<<3)|(Bool_Buffer[Cnt+1]<<2)|(Bool_Buffer[Cnt+2]<<1)|(Bool_Buffer[Cnt+3]);
+<<<<<<< HEAD
 			MAP_SPN_PI_P[val]=MakeOne();
 			Rev_MAP_SPN_PI_P[MAP_SPN_PI_P[val]]=val;
+=======
+			//生成经过P盒之后的结果 
+			MAP_SPN_PI_P[val]=MakeOne();   //得到大p表 
+			Rev_MAP_SPN_PI_P[MAP_SPN_PI_P[val]]=val;  //得到其反表 
+>>>>>>> 1609f65 (init)
 		}		
 		for(register int val=0;val<maxdig;++val)
 		{
@@ -101,7 +149,11 @@ struct Nod
 		}
 	} 
 	
+<<<<<<< HEAD
 	void  Substitute(int typ)
+=======
+	void  Substitute(int typ)    //求一次S盒之后结果 
+>>>>>>> 1609f65 (init)
 	{
 		if(typ==0)
 			nowval=MAP_SPN_PI_S[nowval];
@@ -109,25 +161,43 @@ struct Nod
 			nowval=Rev_MAP_SPN_PI_S[nowval];
 		return;
 	}
+<<<<<<< HEAD
 	void XorKey(int val)
+=======
+	void XorKey(int val)   //求异或一次密钥之后结果 ，val为密钥 
+>>>>>>> 1609f65 (init)
 	{
 		nowval^=val;
 		return;
 	} 
+<<<<<<< HEAD
 	void Permutation(int typ)
+=======
+	void Permutation(int typ)   //求一次p盒之后结果 
+>>>>>>> 1609f65 (init)
 	{
 		if(typ==0) {nowval=MAP_SPN_PI_P[nowval];return;}
 		else if(typ==1) { nowval=Rev_MAP_SPN_PI_P[nowval];return;}
 		return;
 	}
+<<<<<<< HEAD
 	void Encode()
 	{
 		int Lastval=(Key[1]<<12)|(Key[2]<<8)|(Key[3]<<4)|(Key[4]);
+=======
+	void Encode()    //加密过程 
+	{
+		int Lastval=(Key[1]<<12)|(Key[2]<<8)|(Key[3]<<4)|(Key[4]);    //初始化密钥 
+>>>>>>> 1609f65 (init)
 		for(int r=1;r<=Nr-1;++r)
 		{
 			XorKey(Lastval);
 		//	nowval^=Lastval;
+<<<<<<< HEAD
 			Lastval<<=4;Lastval&=0xffff;Lastval|=Key[r+4]; 
+=======
+			Lastval<<=4;Lastval&=0xffff;Lastval|=Key[r+4];   //维护新密钥 
+>>>>>>> 1609f65 (init)
 	//		Substitute(0);
 		//	nowval=MAP_SPN_PI_S[nowval];
 	//		Permutation(0);
@@ -136,8 +206,13 @@ struct Nod
 		
 		}
 		XorKey(Lastval);
+<<<<<<< HEAD
 	//	nowval^=Lastval;
 		Lastval<<=4;Lastval&=0xffff;Lastval|=Key[Nr+4]; 
+=======
+	//	nowval^=Lastval; 
+		Lastval<<=4;Lastval&=0xffff;Lastval|=Key[Nr+4];   //维护新密钥 
+>>>>>>> 1609f65 (init)
 		Substitute(0);
 	//	nowval=MAP_SPN_PI_S[nowval];
 		XorKey(Lastval);
@@ -145,17 +220,30 @@ struct Nod
 		DivideOne(nowval);
 		return;
 	}
+<<<<<<< HEAD
 	void Decode()
 	{
 		int Lastval=(Key[Nr+1]<<12)|(Key[Nr+2]<<8)|(Key[Nr+3]<<4)|(Key[Nr+4]);
 		XorKey(Lastval);
 	//	nowval^=Lastval;
 		Lastval>>=4;Lastval|=(Key[Nr]<<12); 
+=======
+	void Decode()  //解密过程 
+	{
+		int Lastval=(Key[Nr+1]<<12)|(Key[Nr+2]<<8)|(Key[Nr+3]<<4)|(Key[Nr+4]); //初始化密钥 
+		XorKey(Lastval);
+	//	nowval^=Lastval;
+		Lastval>>=4;Lastval|=(Key[Nr]<<12);   //维护新密钥 
+>>>>>>> 1609f65 (init)
 		Substitute(1);
 	//	nowval=Rev_MAP_SPN_PI_S[nowval];
 		XorKey(Lastval);
     //	nowval^=Lastval;
+<<<<<<< HEAD
 		Lastval>>=4;Lastval|=(Key[Nr-1]<<12); 
+=======
+		Lastval>>=4;Lastval|=(Key[Nr-1]<<12);   //维护新密钥 
+>>>>>>> 1609f65 (init)
 		for(int r=Nr-1;r;--r)
 		{
 	//		Permutation(1);
@@ -165,7 +253,11 @@ struct Nod
 			nowval=Rev_MAP_SPN_SP[nowval];
 			XorKey(Lastval);
 		//	nowval^=Lastval;
+<<<<<<< HEAD
 			Lastval>>=4;Lastval|=(Key[r-1]<<12); 
+=======
+			Lastval>>=4;Lastval|=(Key[r-1]<<12);  //维护新密钥 
+>>>>>>> 1609f65 (init)
 		}
 		DivideOne(nowval);
 		return;
@@ -181,11 +273,19 @@ int main()
 	SPN.Init();
 	while(n--)
 	{
+<<<<<<< HEAD
 		SPN.GetinKey();SPN.GetinInfor();//SPN.Print();
 	//	SPN.PrintInfor();cout<<" ";
 		SPN.Encode();SPN.PrintInfor();//SPN.Print();
 		putchar(' ');SPN.nowval^=1;
 		SPN.Decode();SPN.PrintInfor();//SPN.Print();
+=======
+		SPN.GetinKey();SPN.GetinInfor();//SPN.Print();     //读入 
+	//	SPN.PrintInfor();cout<<" ";
+		SPN.Encode();SPN.PrintInfor();//SPN.Print();   //加密 
+		putchar(' ');SPN.nowval^=1;        //按要求操作 
+		SPN.Decode();SPN.PrintInfor();//SPN.Print();   //解密 
+>>>>>>> 1609f65 (init)
 		puts("");
 	}
 	return 0;

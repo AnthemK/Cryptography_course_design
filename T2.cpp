@@ -307,17 +307,30 @@ void LinearAttack1(int pls,int tim,int ansnum)
 {
 	ans=0;maxnowwa=0;PossibleKey[pls][0].first=0;
 	
+<<<<<<< HEAD
 	for(int i=1;i<=tim;++i)  CipherX[i]=Count1Num[Ciphertextpair[i].first&XorX[pls]];
+=======
+	for(int i=1;i<=tim;++i)  CipherX[i]=Count1Num[Ciphertextpair[i].first&XorX[pls]];  //明文的popcount
+>>>>>>> 1609f65 (init)
 	for(int i=0;i<16;++i)
 	{
 		for(register int casee=1;casee<=tim;++casee)
 		{
+<<<<<<< HEAD
 			numbyte2[casee][i]=Count1Num[Rev_SPN_Pi_S[((Ciphertextpair[casee].second>>8)^i)&0xf]&(XorU4[pls]>>8)];
 			numbyte4[casee][i]=Count1Num[Rev_SPN_Pi_S[((Ciphertextpair[casee].second)^i)&0xf]&XorU4[pls]];
 		}
 	}
 		for(register int l2=0;l2<16;++l2)
 				for(register int l4=0;l4<16;++l4)
+=======
+			numbyte2[casee][i]=Count1Num[Rev_SPN_Pi_S[((Ciphertextpair[casee].second>>8)^i)&0xf]&(XorU4[pls]>>8)];   //倒推出U4的第二字节 
+			numbyte4[casee][i]=Count1Num[Rev_SPN_Pi_S[((Ciphertextpair[casee].second)^i)&0xf]&XorU4[pls]];   //倒推出U4的第四字节 
+		}
+	}
+		for(register int l2=0;l2<16;++l2)
+				for(register int l4=0;l4<16;++l4)          //枚举密钥 
+>>>>>>> 1609f65 (init)
 				{
 					nowwa=(l2<<8)|l4;
 					ZeroNum[0][l2][0][l4]=0;Cnt=0;
@@ -327,13 +340,18 @@ void LinearAttack1(int pls,int tim,int ansnum)
 					//	assert(1);
 						//assert(Count1Num[CipherX[casee]^(CipherU4[casee]&XorU4[pls])]==numbyte2[casee][l2]^numbyte4[casee][l4]^CipherX[casee]);
 						//if(numbyte2[casee][l2]^numbyte4[casee][l4]^CipherX[casee]==0) ZeroNum[0][l2][0][l4]++;
+<<<<<<< HEAD
 						Cnt+=!(numbyte2[casee][l2]^numbyte4[casee][l4]^CipherX[casee]);
+=======
+						Cnt+=!(numbyte2[casee][l2]^numbyte4[casee][l4]^CipherX[casee]);       //判断popcount是否为0 
+>>>>>>> 1609f65 (init)
 						
 					}		
 					ZeroNum[0][l2][0][l4]=Cnt;
 					nowdiviation=abs(ZeroNum[0][l2][0][l4]-(tim>>1));
 				//	if(nowdiviation>(tim>>6))
 					{
+<<<<<<< HEAD
 						PossibleKey[pls][++PossibleKey[pls][0].first]=make_pair(nowdiviation,nowwa);
 					}
 				}
@@ -342,6 +360,16 @@ void LinearAttack1(int pls,int tim,int ansnum)
 	return;
 }
 void LinearAttack2(int pls,int tim,int ansnum,int key2) 
+=======
+						PossibleKey[pls][++PossibleKey[pls][0].first]=make_pair(nowdiviation,nowwa);      //存储结果 
+					}
+				}
+				
+	sort(PossibleKey[pls]+1,PossibleKey[pls]+1+PossibleKey[pls][0].first);	//排序 
+	return;
+}
+void LinearAttack2(int pls,int tim,int ansnum,int key2)    //基本同 LinearAttack1相同，只不过这次攻击的是1，2，3字节，并且第二字节对应的密钥确定为key2 
+>>>>>>> 1609f65 (init)
 {
 	ans=0;maxnowwa=0;PossibleKey[pls][0].first=0; 
 //	for(int i=0;i<=ansnum;++i) PossibleKey[pls][i].first=PossibleKey[pls][i].second=0;
@@ -385,7 +413,11 @@ void LinearAttack2(int pls,int tim,int ansnum,int key2)
 
 bool LoopTest(int maxnum)
 {
+<<<<<<< HEAD
 	for(int casee=2654;casee<2654+maxnum;++casee)
+=======
+	for(int casee=2654;casee<2654+maxnum;++casee)   //从一个神秘的数开始，进行加密测试 
+>>>>>>> 1609f65 (init)
 	{
 		SPN.nowval=Ciphertextpair[casee].first;SPN.DivideOne(Ciphertextpair[casee].first);
 		SPN.Encode(); 
@@ -400,18 +432,31 @@ int main()
 	#ifdef _WINDOWS_H_
 	time_t Initial=GetTickCount();
 	#endif
+<<<<<<< HEAD
 	#ifndef ONLINE_JUDGE
+=======
+	#ifndef ONLINE_JUDGE        
+	//一个简易的读入输出宏 
+>>>>>>> 1609f65 (init)
 	freopen(".\\TestCase\\T2\\1.in","r",stdin);
 	freopen("T2ans.txt","w",stdout);
 	#endif
 	n=read();SPN.Init();
+<<<<<<< HEAD
 	XorX[1]=0x0b00;XorU4[1]=0x0505;XorX[2]=0x0c00;XorU4[2]=0x5550;//XorU4[2]=0x8080;
+=======
+	XorX[1]=0x0b00;XorU4[1]=0x0505;XorX[2]=0x0c00;XorU4[2]=0x5550;//XorU4[2]=0x8080;      //线性攻击的掩码（？） 
+>>>>>>> 1609f65 (init)
 	for(register int i=0;i<(1<<16);++i)	Count1Num[i]=Count1(i);
 	
 	while(n--)
 	{
 	//	cout<<"New Case:\n";
+<<<<<<< HEAD
 		for(register int i=1;i<=8000;++i)
+=======
+		for(register int i=1;i<=8000;++i)   //读入8000组明密文对 
+>>>>>>> 1609f65 (init)
 		{
 			SPN.GetinInfor();nowwa=SPN.nowval;
 			SPN.GetinInfor();Ciphertextpair[i]=make_pair(nowwa, SPN.nowval);
@@ -422,7 +467,11 @@ int main()
 		#endif
 	//	LinearAttack(1,6000,numoflinear1,-1,-1,-1,-1);   //分析第2，4byte 
 	//	sort(PossibleKey[1]+1,PossibleKey[1]+1+numoflinear1);	
+<<<<<<< HEAD
 		LinearAttack1(1,8000,numoflinear1);	
+=======
+		LinearAttack1(1,8000,numoflinear1);	   //第一组线性攻击 
+>>>>>>> 1609f65 (init)
 
 		#ifdef _WINDOWS_H_
 		time_t afterfirstattack=GetTickCount();outt(afterfirstattack-Initial);hh;
@@ -454,9 +503,15 @@ int main()
 			#ifdef _WINDOWS_H_
 			printf("Linear Attack1 %d:0x%x\n",i,PossibleKey[1][i].second);
 			#endif
+<<<<<<< HEAD
 			LinearAttack2(2,8000,numoflinear2,(PossibleKey[1][i].second>>8)&0xf);	
 		 	SPN.Key[6]=(PossibleKey[1][i].second&0xf00)>>8;SPN.Key[8]=(PossibleKey[1][i].second&0xf);
 		 	for(int j=PossibleKey[2][0].first;j>=max(1,PossibleKey[2][0].first-numoftest);--j)
+=======
+			LinearAttack2(2,8000,numoflinear2,(PossibleKey[1][i].second>>8)&0xf);	//以 PossibleKey[1][i]的密钥第二字节去进行第二线性攻击 
+		 	SPN.Key[6]=(PossibleKey[1][i].second&0xf00)>>8;SPN.Key[8]=(PossibleKey[1][i].second&0xf);
+		 	for(int j=PossibleKey[2][0].first;j>=max(1,PossibleKey[2][0].first-numoftest);--j)  //考虑此时已经固定了一个字节，故因此理论上答案的偏差会很大，排名会很靠前？ 
+>>>>>>> 1609f65 (init)
 		 	{
 		 		#ifdef _WINDOWS_H_
 				printf("Linear Attack2 %d:0x%x\n",j,PossibleKey[2][j].second);
@@ -464,7 +519,11 @@ int main()
 		 	//	if(PossibleKey[2][j].first<(6000>>5)) break;
 		 		//if((PossibleKey[1][i].second^PossibleKey[2][j].second)&0xf00) continue;
 		 		SPN.Key[5]=(PossibleKey[2][j].second&0xf000)>>12;SPN.Key[7]=(PossibleKey[2][j].second&0xf0)>>4;
+<<<<<<< HEAD
 		 		for(register int key4=0;key4<65536;++key4)
+=======
+		 		for(register int key4=0;key4<65536;++key4)   //枚举前四*4位的密钥 
+>>>>>>> 1609f65 (init)
 		 		{
 		 			qwer=key4;
 		 			SPN.Key[4]=qwer&0xf;qwer>>=4;SPN.Key[3]=qwer&0xf;qwer>>=4;
