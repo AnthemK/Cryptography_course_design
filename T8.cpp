@@ -109,9 +109,9 @@ void Encode_pkcs7(void)
 	return;
 }
 
-void init()
+void init()  //‘§º”‘ÿ 
 {
-	ERR_load_crypto_strings();
+	ERR_load_crypto_strings();   
 	OpenSSL_add_all_algorithms();
 	return;
 }

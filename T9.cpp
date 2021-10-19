@@ -61,7 +61,7 @@ sha1         用于保存SHA-1的字符串指针
 
 
 
-void getstr(unsigned n,char str[8])   //str为返回值字符串 
+void getstr(unsigned n,char str[8])   //str为返回值字符串—（字符串最后记得加上|0啊喂） 
 {
 	str[0]='a';str[1]='0';str[2]='0';str[3]='0';str[4]='0';str[5]='0';str[6]='0';str[7]='0';
 	int i=2;
@@ -83,11 +83,11 @@ void R(unsigned sha1[5],char str[8],int i)   //sha1为现在的SHA1函数值
 
 int n,lenth; 
 string nowstr1,nowstr2;
-map<string,string>RainbowTable;
+map<string,string>RainbowTable;       //表尾为Key，表头为Value 
 unsigned nowsha1[5],Orignsha1[5],inchain[5];
 char ChainHead[maxn],ChainTail[maxn],aimsha1[maxn];
 
-bool Test(string Head,string Tail)
+bool Test(string Head,string Tail)   //测试彩虹链的生成方式是不是和我想的一样 
 {
 	int len=Head.length();
 	char ch[255]={};
@@ -121,7 +121,7 @@ bool Test(string Head,string Tail)
 	return 0;
 }
 
-bool WorkWithHead(string HeadofChain,string TailofChain)
+bool WorkWithHead(string HeadofChain,string TailofChain)   //从头开始，去碰目标，和Test函数几乎差不多 
 {
 	int len=HeadofChain.length();
 	char ch[255]={};
@@ -173,6 +173,7 @@ int main()
 		for(uint j=7ll,val=1ll;j<=7;--j,val<<=4)
 		{
 			Orignsha1[i]+=val*(isdigit(aimsha1[i*8+j])?(aimsha1[i*8+j]-'0'):(aimsha1[i*8+j]-'a'+10ll));
+			//为什么不弄个数组直接ascii到整数呢（ 
 		}
 //		outt(Orignsha1[i]);printf("%x",Orignsha1[i]);hh;
 		//printf("%d\n",Orignsha1[i]);
@@ -184,8 +185,8 @@ int main()
 	//*/
 	//aimsha1   char[]   inchain int[5]
 //	for(int j=0;j<4;++j) printf("%x ",Orignsha1[j]);hh;
-	for(int j=0;j<=1000;++j) aimsha1[j]=0;
-	for(int nowpls=1;nowpls<=100;++nowpls)         //
+	for(int j=0;j<=1000;++j) aimsha1[j]=0;  //记得清空 
+	for(int nowpls=1;nowpls<=100;++nowpls)         //枚举目标如果想在链上走，下一步应该是什么 
 	{
 		for(int i=0;i<5;++i) inchain[i]=Orignsha1[i];
 		aimsha1[0]=0;

@@ -39,7 +39,7 @@ BigInt Exgcd(BigInt val1,BigInt val2,BigInt* Coefficient1,BigInt* Coefficient2)
 int IndexBit[100000];
 BigInt val256[ksmbit<<2],qwwq;
 
-BigInt My_Fastest_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)       //»¬¶¯´°¿ÚÓÅ»¯¿ìËÙÃÝ 
+BigInt My_Fastest_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)       //Ö¸ÊýÑ¹Î»ÊµÏÖ¿ìËÙÃÝ 
 {
 	int qwer,cnt;
 	cnt=0;
@@ -48,7 +48,7 @@ BigInt My_Fastest_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)       //»¬¶¯´°¿Ú
 		qwwq=(Indexx&((ksmbit<<1)-1));qwer=1;
 		while(qwwq>0)
 		{
-			if((qwwq&qwer)>0) IndexBit[cnt]|=qwer,qwwq-=qwer;
+			if((qwwq&qwer)>0) IndexBit[cnt]|=qwer,qwwq-=qwer;  //Ô¤´¦ÀíÑ¹Î»Ö®ºóµÄ½á¹û 
 			qwer<<=1;
 		}
 		Indexx>>=6;
@@ -67,7 +67,7 @@ BigInt My_Fastest_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)       //»¬¶¯´°¿Ú
 	return Ans;
 }
 
-BigInt My_Fast_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)       //»¬¶¯´°¿ÚÓÅ»¯¿ìËÙÃÝ 
+BigInt My_Fast_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)       //»¬¶¯´°¿ÚÓÅ»¯¿ìËÙÃÝ £¨µ«ÊÇºÃÏñÓÐµãÆæ¹Ö£¨X£©£© ¾ßÌå·½·¨²»ÔÙ×¸Êö 
 {
 	int cnt;
 	for(cnt=0;Indexx!=0;++cnt)
@@ -103,7 +103,7 @@ BigInt My_Fast_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)       //»¬¶¯´°¿ÚÓÅ»
 	return Ans;
 }
 
-BigInt My_Pow_Prime(BigInt Basee,BigInt Indexx,BigInt NowMod)     //ÒªÇóÄ£Êý±ØÐëÊÇÖÊÊý£¬·ñÔò»á³ö´í 
+BigInt My_Pow_Prime(BigInt Basee,BigInt Indexx,BigInt NowMod)     //ÒªÇóÄ£Êý±ØÐëÊÇÖÊÊý£¬·ñÔò»á³ö´í £¬´Ë´¦ÊµÏÖµÄÊÇÀûÓÃNAF±íÊ¾À´¼ÓËÙ 
 {
 	BigInt Ans=1,Inv,coe2;
 	if(Basee%NowMod==0) return 0;
@@ -114,7 +114,7 @@ BigInt My_Pow_Prime(BigInt Basee,BigInt Indexx,BigInt NowMod)     //ÒªÇóÄ£Êý±ØÐë
 	coe2=Basee*Inv%NowMod;
 	bool ifborr=0,nowdig,nxtdig;
 	nxtdig=(((Indexx&1)==1)?1:0);
-	while(Indexx!=0)
+	while(Indexx!=0)               //Êµ¼ÊÉÏÒòÎªÎÒÐ´µÄÊ±ºòÖÇÁ¦ÏÂÏßÁË£¬Êµ¼ÊÉÏÕâ¸öÊµÏÖÊÇÓÐÎÊÌâµÄ ¡£Ò»ÖÖ¸üÓÅÐãµÄ·½·¨Ó¦¸ÃÊÇBaseeºÍInv±£³Ö²»±ä£¬Ö¸Êý´Ó¸ßÎ»µ½µÍÎ»½øÐÐ£¬ÖÐ¼äAns½øÐÐ×Ô³ËÈ¡´úBaseeºÍInv×Ô³Ë 
 	{
 		nowdig=nxtdig;nxtdig=(((Indexx&2)==2)?1:0);
 		if(ifborr==0){
@@ -134,12 +134,12 @@ BigInt My_Pow_Prime(BigInt Basee,BigInt Indexx,BigInt NowMod)     //ÒªÇóÄ£Êý±ØÐë
 		//if((Indexx&1)==1) Ans=(Ans*Basee)%NowMod;      
 		Basee=(Basee*Basee)%NowMod;Inv=(Inv*Inv)%NowMod;Indexx>>=1;
 	} 
-	if(ifborr==1) Ans=(Ans*Basee)%NowMod;
+	if(ifborr==1) Ans=(Ans*Basee)%NowMod;   //×¢Òâ¿ÉÄÜÓÐÒç³ö 
 	return Ans;
 }
 
 
-BigInt CRT(BigInt ModResi[],BigInt ModNum[],int num)
+BigInt CRT(BigInt ModResi[],BigInt ModNum[],int num)  //ÖÐ¹úÊ£Óà¶¨Àí 
 {
 	BigInt M,coe1,coe2,ans,Mi,Inv_Mi;
 	M=1;ans=0;

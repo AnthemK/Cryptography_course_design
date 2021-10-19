@@ -1,3 +1,4 @@
+//本题就是前两个题合体，所以没什么要额外注释的 
 #include <gmpxx.h>
 #include <stdio.h>
 #include <cmath>
@@ -162,16 +163,16 @@ BigInt CRT(BigInt ModResi[],BigInt ModNum[],int num)
     Mi=M/ModNum[1];
     BigInt gcd=Exgcd(Mi,ModNum[1],&coe1,&coe2);  //默认互质了 ,否则下面ModResi[i]应该除以gcd 
     assert(gcd==1);
-    while(coe1<0) coe1=coe1+10000*M;
+    while(coe1<0) coe1=coe1+10000*M;   //实际上没什么用 
     coe1%=M; 
     ans=(ans+ModResi[1]*coe1*Mi)%M;  
 	Mi=M/ModNum[2];
     gcd=Exgcd(Mi,ModNum[2],&coe1,&coe2);  //默认互质了 ,否则下面ModResi[i]应该除以gcd 
     assert(gcd==1);
-    while(coe1<0) coe1=coe1+10000*M;
+    while(coe1<0) coe1=coe1+10000*M;    //实际上没什么用 
     coe1%=M; 
     ans=(ans+ModResi[2]*coe1*Mi)%M; 
-    while(ans<0) ans=ans+10000*M;
+    while(ans<0) ans=ans+10000*M; //实际上没什么用 
    // gmp_printf("ans:  %Zd\n",ans);
    	ans=(ans+M)%M;
     return ans;
@@ -197,6 +198,7 @@ int main()
 	{	
 		gmp_scanf("%Zd",&m);//anss=My_Pow(m,d,pq);
 		qwer=d%(p-1);modresi[1]=My_Fast_Pow(m,qwer,p);modnum[1]=p;     // qwer=qwer%modnum[1];gmp_printf("std_ans:   %Zd\nmodrest[1]:   %Zd\n",qwer,modresi[1]);
+		//第一步这个取模可以显著加速 
 		//puts("2");
 		qwer=d%(q-1);modresi[2]=My_Fast_Pow(m,qwer,q);modnum[2]=q;   //   qwer=anss%modnum[2];assert(qwer==modresi[2]);gmp_printf("anss%%p:   %Zd\nmodrest[2]:   %Zd\n",qwer,modresi[2]);
 		//puts("3");

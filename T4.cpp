@@ -27,12 +27,14 @@ const uint maxm = ((1<<16)+5);
 const uint maxbyte = ((1<<8)+5);
 //int SPN_Pi_S[maxn]={14,4,13,1,2,15,11,8,3,10,6,12,5,9,0,7};       //需要修改到256
 uint SPN_PI_S[maxbyte]={205,240,162,226,237,136,227,152,188,102,193,124,244,219,71,150,246,108,94,17,175,47,64,66,65,7,222,76,138,99,77,81,192,155,56,39,25,3,151,101,61,68,172,167,24,160,97,19,179,180,198,33,21,224,197,15,120,196,239,44,83,38,46,103,84,95,213,200,170,23,70,149,163,148,251,186,211,189,100,42,191,52,72,53,67,215,245,207,144,146,45,181,93,147,153,80,116,114,49,4,88,16,90,127,255,202,85,55,178,221,229,10,13,105,177,58,0,60,234,34,50,141,242,156,134,28,176,118,48,1,210,6,187,119,243,128,232,166,5,236,137,73,253,217,214,212,69,111,79,184,51,87,216,135,168,158,249,92,35,182,107,235,126,31,2,254,133,233,18,201,174,8,159,82,37,113,9,63,41,104,59,26,231,145,89,122,110,142,86,164,29,30,169,154,223,112,140,78,75,220,238,54,143,195,131,130,228,139,121,109,12,161,125,57,74,190,250,171,209,199,40,123,204,247,183,173,98,185,208,248,241,14,27,203,218,230,43,96,22,194,129,11,115,165,32,132,91,36,157,117,225,206,20,106,62,252};//256->256 
+//一个随即出来的s盒 
 // ={13,0,30,5,28,19,18,15,4,29,17,12,1,10,26,14,8,6,9,21,3,27,22,31,23,20,16,11,24,7,25,2};
 uint Rev_SPN_PI_S[maxn];//={14,3,4,8,1,12,10,15,7,13,9,6,11,2,0,5};
 uint MAP_SPN_PI_S[maxm];//,Rev_MAP_SPN_PI_S[maxm];
 //int SPN_Pi_P[maxn]={0,4,8,12,1,5,9,13,2,6,10,14,3,7,11,15};            //需要修改到32 
 uint SPN_PI_P[maxbyte];//32->32
 uint Rev_SPN_PI_P[maxn];//{0,4,8,12,1,5,9,13,2,6,10,14,3,7,11,15};
+//p盒有两种生成方式，见SPNCryptoSystem::init函数 
 uint MAP_SPN_PI_P[2][maxm];//,Rev_MAP_SPN_PI_P[3][maxm];
 uint MAP_SPN_SP[2][maxm];//,Rev_MAP_SPN_SP[3][maxm];
 
@@ -81,12 +83,12 @@ class SPNCryptoSystem
 			for(int j=0;j<4;++j)  SPN_PI_P[i*8+j+4]=(i*2)+(8*j)+1,Rev_SPN_PI_P[(i*2)+(8*j)+1]=i*8+j+4;
 		}
 		//*/ 
-		//周期方法生成p盒 
+		//周期方法生成p盒，这种方法因为会把每个字节的不确定带入其他字节，所以实际上效果很好，甚至高于随机 
 		/*
 		for(uint i=0;i<32;++i) SPN_PI_P[i]=i;
 		random_shuffle(SPN_PI_P,SPN_PI_P+32);
 		for(uint i=0;i<32;++i) Rev_SPN_PI_P[SPN_PI_P[i]]=i;
-		//random_shuffle 生成P盒    求反 
+		//random_shuffle方法生成P盒    求反 
 		/*hh;
 		for(int i=0;i<32;++i) outt(SPN_PI_P[i]);
 		hh;
@@ -223,7 +225,7 @@ class SPNCryptoSystem
 		DivideOne(nowval);
 		return;
 	}
-	//未完成  因为空间不够 
+	//未完成  因为空间不够，实际上只需要超出一点点就可以 
 	void SPNCryptoSystem::Decode()
 	{
 		uint Lastval=(((uint )Key[Nr+1])<<24)|(((uint )Key[Nr+2])<<16)|(((uint )Key[Nr+3])<<8)|(((uint )Key[Nr+4]));  //moren
@@ -246,7 +248,7 @@ class SPNCryptoSystem
 		DivideOne(nowval);
 		return;
 	}
-	void SPNCryptoSystem::Test(int  typ)   //typ==1自行生成 
+	void SPNCryptoSystem::Test(int  typ)   //这个函数是为了确认我的加密确实是可逆的。   typ==1自行生成测试数据 
 	{
 		if(typ==1) 
 		{
@@ -263,6 +265,7 @@ class SPNCryptoSystem
 		Substitute(0);nowval=MakeOne();DivideOne(nowval);Substitute(1);nowval=MakeOne();nowval=MakeOne();DivideOne(nowval);
 		//for(int i=1;i<=textInforlenth;++i) assert(OrignInfor[i]==Infor[i]);	
 		assert(Orignnowval==nowval);
+		//测试分开的函数是不是可逆 
 		DivideOne(nowval);Encode();
 	/*	for(int i=0;i<=Nr+2;++i) printf("%d:0x%x  ",i,DebugEncode[i]);
 		hh;printf("0x%x",nowval);hh;
@@ -274,6 +277,7 @@ class SPNCryptoSystem
 			assert(DebugEncode[r]==DebugDecode[r]),outt(r);
 		//*/
 		Decode();
+		//测试加解密是不是可逆 
 		assert(Orignnowval==nowval);
 	} 
 //*/                           如果要引用库文件SPNCryptoSystem.h的话注释到这里 
@@ -289,17 +293,17 @@ int main()
 	#endif
 	SPN.Init();	
 	fread(SPN.Key+1,KEYBYTES,1,stdin);
-	srand(time(NULL));
+	srand(SPN.Key[1]);   //这里是我最核心的思路，具体可见实验报告 
 	
 //	for(int i=0;i<(1<<8);++i) fprintf(fout,"%u,",SPN_PI_S[i]); 
 	
 //	for(int j=1;j<=SPNBYTES;++j) SPN.Infor[j]=rand()&0xff;
 	SPN.nowval=rand()&0xffffffff;
-	for(int i=0;i<(INPUTBYTES/SPNBYTES);++i)
+	for(int i=0;i<(INPUTBYTES/SPNBYTES);++i)   //分组 
 	{
 		Orign=SPN.nowval;
 		fread(SPN.Infor+1,SPNBYTES,1,stdin);SPN.MakeOne();
-		SPN.Key[i%KEYBYTES+1]^=(uchar )(Orign>>(i%24))&0xff;
+		SPN.Key[i%KEYBYTES+1]^=(uchar )(Orign>>(i%24))&0xff;   //这是为了把随即成分引入下一组加密 
 		SPN.Encode();
 		fwrite(SPN.Infor+1,SPNBYTES,1,stdout);
 	}

@@ -7,7 +7,7 @@
 #define maxdig (1<<(4*textInforlenth))
 using namespace std;
 typedef long long ll;
-
+ 
 
 const int SPN_Pi_S[maxn]={14,4,13,1,2,15,11,8,3,10,6,12,5,9,0,7};
 //int Rev_SPN_Pi_S[maxn]={14,3,4,8,1,12,10,15,7,13,9,6,11,2,0,5};
@@ -30,6 +30,8 @@ bool Bool_Buffer[maxn];
 int nowwa,Cnt;
 char cc;
 
+
+//具体函数中实现带注释版可以去看T1_SPN.cpp 
  class SPNCryptoSystem
 {
 	private:

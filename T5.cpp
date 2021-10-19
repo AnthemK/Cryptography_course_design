@@ -9,12 +9,12 @@
 #endif
 
 using namespace std;
-typedef mpz_class BigInt;
+typedef mpz_class BigInt;    //这里定义成我比较习惯用的BigInt 
 typedef long long ll;
 
 BigInt prime[25];	//大概是不会出错的 
 
-BigInt My_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)     //ksm  暂时还没优化 
+BigInt My_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)     //ksm  暂时还没优化，优化要去看后面的题 
 {
 	BigInt Ans=1;
 	while(Indexx!=0)
@@ -24,7 +24,7 @@ BigInt My_Pow(BigInt Basee,BigInt Indexx,BigInt NowMod)     //ksm  暂时还没优化
 	} 
 	return Ans;
 }
-BigInt Exgcd(BigInt val1,BigInt val2,BigInt* Coefficient1,BigInt* Coefficient2)          
+BigInt Exgcd(BigInt val1,BigInt val2,BigInt* Coefficient1,BigInt* Coefficient2)        //扩展欧几里得算法  
 {
 	if(!val2){*Coefficient1=1;*Coefficient2=0;return val1;}
 	BigInt lson,rson,Ans;
@@ -34,7 +34,7 @@ BigInt Exgcd(BigInt val1,BigInt val2,BigInt* Coefficient1,BigInt* Coefficient2)
 }
 
 
-bool JudgePrime(BigInt nowwa)   //实际上是Miller-Rabin 
+bool JudgePrime(BigInt nowwa)   //实际上是Miller-Rabin ，这里就不对原理做解释了 
 {
 	if(nowwa==1) return false;
 	if(nowwa==2) return true;
@@ -75,7 +75,7 @@ BigInt Judge(BigInt e,BigInt p,BigInt q)
 	anss=Exgcd((p-1),(q-1),&coe1,&coe2);
 	if(anss*anss*anss*anss>min(p,q)) return false;//p-1和q-1都没有过小的因子,老师给的比较方法（实际上我完全没理解） 
 //	gmp_printf("%Zd\n%Zd\n%Zd\n",max(p,q),min(p,q),(p/q));
-	if(max(p,q)>min(p,q)*min(p,q)) return false;
+	if(max(p,q)>min(p,q)*min(p,q)) return false;   //偏差不能太大 
 	anss=Exgcd(e,(p-1)*(q-1),&coe1,&coe2);
 	if(anss!=1) return false;
 	while(coe1<0) coe1+=(p-1)*(q-1);

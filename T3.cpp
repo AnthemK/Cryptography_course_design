@@ -239,19 +239,20 @@ us Ciphertextpair[maxm];
 us numbyte1,numbyte2;
 
 
-void DifferentialAttack1(int pls,int tim) 
+void DifferentialAttack1(int pls,int tim)   //此处有很多部分都和T2中相同，因此主要介绍不同的部分 
 {
 	PossibleKey1[0].first=0;
 	us Othe;
-	for(register us casee=0;casee<tim;++casee)
+	for(register us casee=0;casee<tim;++casee)   //注意这个外层枚举明密文对，因为可以预处理，因此能够显著的提速 
 	{	
-		Othe=casee^XorX[pls];
-		if(((Ciphertextpair[casee]^Ciphertextpair[Othe])&0xf0f0)) continue;
+		Othe=casee^XorX[pls];   //找到异或恰好为我需要值的两个明密文对 
+		if(((Ciphertextpair[casee]^Ciphertextpair[Othe])&0xf0f0)) continue;   //这一组没有意义，他们在这两个半字节上是相同的，因此枚举密钥在进行倒着的S盒之后也仍然相同 
 		for(register us l2=0;l2<16;++l2)
 		{
 				for(register us l4=0;l4<16;++l4)
 				{
 					ZeroNum[0][l2][0][l4]+=((((Rev_SPN_Pi_S[((Ciphertextpair[casee]>>8)^l2)&0xf]^Rev_SPN_Pi_S[((Ciphertextpair[Othe]>>8)^l2)&0xf])<<8)|(Rev_SPN_Pi_S[((Ciphertextpair[casee])^l4)&0xf]^Rev_SPN_Pi_S[((Ciphertextpair[Othe])^l4)&0xf]))^XorU4[pls])?0:1;
+					//一串超极长的式子，实际上就是进行部分解密之后，得到之后的异或的结果，并且把它和目标比较，相同计数器就++ 
 				}
 		}			
 	}
@@ -260,17 +261,17 @@ void DifferentialAttack1(int pls,int tim)
 				for(register us l4=0;l4<16;++l4)
 				{
 					nowwa=(l2<<8)|l4;
-					if(ZeroNum[0][l2][0][l4]) PossibleKey1[++PossibleKey1[0].first]=make_pair(ZeroNum[0][l2][0][l4],nowwa);
+					if(ZeroNum[0][l2][0][l4]) PossibleKey1[++PossibleKey1[0].first]=make_pair(ZeroNum[0][l2][0][l4],nowwa);  //统计答案中概率不为0的密钥 
 					ZeroNum[0][l2][0][l4]=0;
 				}
 
 		}		
-	sort(PossibleKey1+1,PossibleKey1+1+PossibleKey1[0].first);	
+	sort(PossibleKey1+1,PossibleKey1+1+PossibleKey1[0].first);	//排序，按照概率 
 //	for(int i=PossibleKey[pls][0].first;i>=1;--i) outt(PossibleKey[pls][i].first),outt(PossibleKey[pls][i].second),hh;
 	return;
 }
 
-void DifferentialAttack2(int pls,int tim) 
+void DifferentialAttack2(int pls,int tim)   //基本思路和 DifferentialAttack1相似，故不再赘述 
 {
 	PossibleKey2[0].first=0;
 	us Othe;
@@ -303,7 +304,7 @@ void DifferentialAttack2(int pls,int tim)
 
 
 
-bool LoopTest(int maxnum)
+bool LoopTest(int maxnum)   //仍然是玄学测试 
 {
 	for(int casee=0;casee<maxnum;++casee)
 	{
@@ -333,7 +334,7 @@ us readInfor(){
 int main()
 {
 	#ifndef ONLINE_JUDGE
-	Initial=GetTickCount();
+	Initial=GetTickCount();  //这些都是为了输出中间步骤时间的，在OJ测试的时候则不会编译 
 	#endif
 	#ifndef ONLINE_JUDGE
 	freopen(".\\TestCase\\T3\\7.in","r",stdin);
@@ -355,7 +356,7 @@ int main()
 		afterinput=GetTickCount();outt(afterinput-casebegin);hh;	
 		#endif
 		
-		DifferentialAttack1(1,1500);DifferentialAttack2(2,8000);
+		DifferentialAttack1(1,1500);DifferentialAttack2(2,8000);  //两个差分分析一起进行 
 		#ifndef ONLINE_JUDGE
 		afterattack=GetTickCount();outt(afterattack-afterinput);hh;
 		#endif
@@ -376,6 +377,7 @@ int main()
 		 			qwer=key4;
 		 			SPN.Key[4]=qwer&0xf;qwer>>=4;SPN.Key[3]=qwer&0xf;qwer>>=4;
 		 			SPN.Key[2]=qwer&0xf;qwer>>=4;SPN.Key[1]=qwer&0xf;qwer>>=4;
+		 			//组合密钥，进行测试 
 		 			if(LoopTest(numoftest))
 		 			{
 		 				SPN.PrintKey();
