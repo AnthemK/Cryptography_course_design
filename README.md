@@ -13,7 +13,7 @@
 ## 文件
 * 我的代码为T1--T9 .cpp（加了注释）
 * Data_Generater.cpp是一个神秘的随机数据生成器
-* SPNCryptoSystem.cpp和SPNCryptoSystem.h是我做的一个简单的SPN类（~~昨晚才想起来OJ只能交一个文件，所以忽视它吧~~）
+* SPNCryptoSystem.cpp和SPNCryptoSystem.h是我做的一个简单的SPN类（~~做完才想起来OJ只能交一个文件，所以忽视它吧~~）
 * T2-2nd-Linear .txt和T2-3rd-Linear .txt是我利用大量数据做分析得到的线性链，但是实际用起来效果很差。
 * test.cpp和wq.cpp是两个测试用的文件，并不是最终代码
 * 感谢syx大佬，sac大佬和ljl大佬，带有他们名字的是他们的代码orz
