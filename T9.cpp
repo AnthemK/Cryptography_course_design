@@ -61,7 +61,7 @@ sha1         ÓÃÓÚ±£´æSHA-1µÄ×Ö·û´®Ö¸Õë
 
 
 
-void getstr(unsigned n,char str[8])   //strÎª·µ»ØÖµ×Ö·û´®¡ª£¨×Ö·û´®×îºó¼ÇµÃ¼ÓÉÏ|0°¡Î¹£© 
+void getstr(unsigned n,char str[8])  //strÎª·µ»ØÖµ×Ö·û´®¡ª£¨×Ö·û´®×îºó¼ÇµÃ¼ÓÉÏ|0°¡Î¹£© 
 {
 	str[0]='a';str[1]='0';str[2]='0';str[3]='0';str[4]='0';str[5]='0';str[6]='0';str[7]='0';
 	int i=2;
@@ -73,7 +73,7 @@ void getstr(unsigned n,char str[8])   //strÎª·µ»ØÖµ×Ö·û´®¡ª£¨×Ö·û´®×îºó¼ÇµÃ¼ÓÉÏ|
 		else str[i++]=tmp-10+'a';
 		n=n/36;
 	}
-//	str[i]=0;
+//	str[i+1]=0;
 }
 
 void R(unsigned sha1[5],char str[8],int i)   //sha1ÎªÏÖÔÚµÄSHA1º¯ÊıÖµ 
@@ -83,7 +83,7 @@ void R(unsigned sha1[5],char str[8],int i)   //sha1ÎªÏÖÔÚµÄSHA1º¯ÊıÖµ
 
 int n,lenth; 
 string nowstr1,nowstr2;
-map<string,string>RainbowTable;       //±íÎ²ÎªKey£¬±íÍ·ÎªValue 
+map<string,string>RainbowTable;    //±íÎ²ÎªKey£¬±íÍ·ÎªValue 
 unsigned nowsha1[5],Orignsha1[5],inchain[5];
 char ChainHead[maxn],ChainTail[maxn],aimsha1[maxn];
 
@@ -121,7 +121,7 @@ bool Test(string Head,string Tail)   //²âÊÔ²ÊºçÁ´µÄÉú³É·½Ê½ÊÇ²»ÊÇºÍÎÒÏëµÄÒ»Ñù
 	return 0;
 }
 
-bool WorkWithHead(string HeadofChain,string TailofChain)   //´ÓÍ·¿ªÊ¼£¬È¥ÅöÄ¿±ê£¬ºÍTestº¯Êı¼¸ºõ²î²»¶à 
+bool WorkWithHead(string HeadofChain,string TailofChain)    //´ÓÍ·¿ªÊ¼£¬È¥ÅöÄ¿±ê£¬ºÍTestº¯Êı¼¸ºõ²î²»¶à 
 {
 	int len=HeadofChain.length();
 	char ch[255]={};
@@ -154,7 +154,7 @@ bool WorkWithHead(string HeadofChain,string TailofChain)   //´ÓÍ·¿ªÊ¼£¬È¥ÅöÄ¿±ê£
 int main()
 {
 	#ifndef ONLINE_JUDGE
-	freopen(".\\TestCase\\T9\\1.in","r",stdin);
+	freopen(".\\TestCase\\T9\\2.in","r",stdin);
 	freopen(".\\TestCase\\T9\\T9.txt","w",stdout);
 	#endif
 	scanf("%d",&n);
@@ -176,7 +176,6 @@ int main()
 			//ÎªÊ²Ã´²»Åª¸öÊı×éÖ±½Óasciiµ½ÕûÊıÄØ£¨ 
 		}
 //		outt(Orignsha1[i]);printf("%x",Orignsha1[i]);hh;
-		//printf("%d\n",Orignsha1[i]);
 	}
 	
 	
@@ -185,8 +184,8 @@ int main()
 	//*/
 	//aimsha1   char[]   inchain int[5]
 //	for(int j=0;j<4;++j) printf("%x ",Orignsha1[j]);hh;
-	for(int j=0;j<=1000;++j) aimsha1[j]=0;  //¼ÇµÃÇå¿Õ 
-	for(int nowpls=1;nowpls<=100;++nowpls)         //Ã¶¾ÙÄ¿±êÈç¹ûÏëÔÚÁ´ÉÏ×ß£¬ÏÂÒ»²½Ó¦¸ÃÊÇÊ²Ã´ 
+	for(int j=0;j<=100;++j) aimsha1[j]=0;   //¼ÇµÃÇå¿Õ 
+	for(int nowpls=1;nowpls<=100;++nowpls)         //Ã¶¾Ù Ä¿±êÈç¹ûÏëÔÚÁ´ÉÏ×ß£¬ÏÂÒ»²½Ó¦¸ÃÊÇÊ²Ã´ 
 	{
 		for(int i=0;i<5;++i) inchain[i]=Orignsha1[i];
 		aimsha1[0]=0;
@@ -194,18 +193,17 @@ int main()
 		{
 		//	for(int jk=0;jk<=1000;++jk) aimsha1[jk]=0;
 			R(inchain,aimsha1,i);
-			printf("%d %s\n",i,aimsha1);//hh;
+		//	printf("%d %s\n",i,aimsha1);//hh;
 			UnitSHA1(aimsha1,strlen(aimsha1),inchain);
 		}
 		R(inchain,aimsha1,100);
-		printf("100 %s\n",aimsha1);
+		//printf("100 %s\n",aimsha1);
 		for(int turnn=1;turnn<=100;++turnn)
 		{
 		//	printf("In turn %d :  ",turnn);printf("%s\n",aimsha1);
 			nowstr1=aimsha1;
 			if(RainbowTable.find(nowstr1)!=RainbowTable.end())
 			{
-			//	printf("%d %d\n",nowpls,turnn);
 			//	outt(turnn);outt(nowpls);printf("%s",RainbowTable[nowstr1].c_str());puts("!");
 				if(WorkWithHead(RainbowTable[nowstr1],nowstr1)) goto endofprogram;
 			}
@@ -214,7 +212,7 @@ int main()
 				UnitSHA1(aimsha1,strlen(aimsha1),inchain);
 			//	for(int jk=0;jk<=1000;++jk) aimsha1[jk]=0;
 				R(inchain,aimsha1,i);
-				printf("%d %d %d %s\n",nowpls,turnn, i,aimsha1);
+			//	printf("%d %d %d %s\n",nowpls,turnn, i,aimsha1);
 			}
 		}
 	}
@@ -223,4 +221,3 @@ int main()
 	endofprogram:
 	return 0;
 }
-

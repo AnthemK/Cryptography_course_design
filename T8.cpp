@@ -67,7 +67,7 @@ void Encode_pkcs7(void)
 	EVP_PKEY* pKey = getpkey(PKeyB);  //获得私钥 
 	PKCS7* p7 = PEM_read_bio_PKCS7(mem, NULL, NULL, NULL);  //读密文 
 	free(mem);
-	BIO* bio_out = PKCS7_dataDecode(p7, pKey, NULL, NULL);//解析出原始数据
+	BIO* bio_out = PKCS7_dataDecode(p7, pKey, NULL, NULL);//解析出明文
 	int len = BIO_read(bio_out, ans, 10000);//从BIO中读取原始数据
 	if (len <=0)   //比如返回NULL 
 	{

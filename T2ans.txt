@@ -1,0 +1,64 @@
+afterinput-Initial = 0   
+afterfirstattack-Initial = 15   
+Linear Attack1 256:0xd0b
+Linear Attack2 256:0x4d60
+i = 256   j = 256   
+90864d6b
+afterinput-Initial = 31   
+afterfirstattack-Initial = 31   
+Linear Attack1 256:0xd05
+Linear Attack2 256:0x5db0
+i = 256   j = 256   
+3d635db5
+afterinput-Initial = 46   
+afterfirstattack-Initial = 46   
+Linear Attack1 256:0x90e
+Linear Attack2 256:0x69f0
+i = 256   j = 256   
+e5e669fe
+afterinput-Initial = 46   
+afterfirstattack-Initial = 62   
+Linear Attack1 256:0x0
+Linear Attack2 256:0xb0f0
+i = 256   j = 256   
+9427b0f0
+afterinput-Initial = 62   
+afterfirstattack-Initial = 62   
+Linear Attack1 256:0xf0c
+Linear Attack2 256:0xefd0
+i = 256   j = 256   
+38a1efdc
+afterinput-Initial = 78   
+afterfirstattack-Initial = 78   
+Linear Attack1 256:0x20a
+Linear Attack2 256:0x2280
+i = 256   j = 256   
+58a2228a
+afterinput-Initial = 78   
+afterfirstattack-Initial = 93   
+Linear Attack1 256:0x704
+Linear Attack2 256:0x8790
+i = 256   j = 256   
+ddf78794
+afterinput-Initial = 93   
+afterfirstattack-Initial = 109   
+Linear Attack1 256:0xb02
+Linear Attack2 256:0xdb80
+i = 256   j = 256   
+bc4edb82
+afterinput-Initial = 109   
+afterfirstattack-Initial = 109   
+Linear Attack1 256:0xe00
+Linear Attack2 256:0xce50
+Linear Attack2 255:0xce40
+Linear Attack2 254:0xee50
+Linear Attack1 255:0xe01
+Linear Attack2 256:0xce50
+i = 255   j = 256   
+9951ce51
+afterinput-Initial = 140   
+afterfirstattack-Initial = 140   
+Linear Attack1 256:0x609
+Linear Attack2 256:0x9650
+i = 256   j = 256   
+0ff89659
