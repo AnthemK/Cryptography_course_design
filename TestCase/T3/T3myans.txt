@@ -1,0 +1,4010 @@
+New Case 499
+casebegin-Initial = 0    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 87:0x404  32
+Differential Attack2 66:0xf010  24
+b6b8f414
+afterenumerate-afterattack = 0    
+New Case 498
+casebegin-Initial = 15    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x90f  31
+Differential Attack2 44:0xd0a0  14
+d144d9af
+afterenumerate-afterattack = 0    
+New Case 497
+casebegin-Initial = 15    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 122:0x60e  61
+Differential Attack2 59:0x4060  16
+0ab1466e
+afterenumerate-afterattack = 0    
+New Case 496
+casebegin-Initial = 31    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 116:0x802  64
+Differential Attack2 100:0xb010  33
+4ee1b812
+afterenumerate-afterattack = 0    
+New Case 495
+casebegin-Initial = 31    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x905  24
+Differential Attack2 54:0x6000  18
+650d6905
+afterenumerate-afterattack = 0    
+New Case 494
+casebegin-Initial = 47    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0x205  50
+Differential Attack2 39:0xc010  22
+2e18c215
+afterenumerate-afterattack = 0    
+New Case 493
+casebegin-Initial = 47    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x708  78
+Differential Attack2 63:0x3050  22
+53713758
+afterenumerate-afterattack = 0    
+New Case 492
+casebegin-Initial = 62    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xa0a  32
+Differential Attack2 81:0xf010  36
+4989fa1a
+afterenumerate-afterattack = 0    
+New Case 491
+casebegin-Initial = 62    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 99:0x502  71
+Differential Attack2 79:0xa030  46
+f8c4a532
+afterenumerate-afterattack = 0    
+New Case 490
+casebegin-Initial = 78    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 106:0x602  72
+Differential Attack2 58:0xa0f0  18
+29b9a6f2
+afterenumerate-afterattack = 0    
+New Case 489
+casebegin-Initial = 78    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 93:0xb06  60
+Differential Attack2 76:0xf020  34
+da1afb26
+afterenumerate-afterattack = 0    
+New Case 488
+casebegin-Initial = 93    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0xc08  64
+Differential Attack2 87:0x90d0  36
+48819cd8
+afterenumerate-afterattack = 0    
+New Case 487
+casebegin-Initial = 93    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 98:0x90a  21
+Differential Attack2 56:0x3000  30
+a538390a
+afterenumerate-afterattack = 0    
+New Case 486
+casebegin-Initial = 109    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 118:0x900  27
+Differential Attack2 104:0x1000  64
+de071900
+afterenumerate-afterattack = 0    
+New Case 485
+casebegin-Initial = 109    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 82:0xa00  27
+Differential Attack2 67:0xd0b0  26
+1feedab0
+afterenumerate-afterattack = 0    
+New Case 484
+casebegin-Initial = 125    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 89:0x304  26
+Differential Attack2 61:0x50d0  31
+4feb53d4
+afterenumerate-afterattack = 0    
+New Case 483
+casebegin-Initial = 125    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 99:0x304  75
+Differential Attack2 84:0xd0a0  30
+48e0d3a4
+afterenumerate-afterattack = 0    
+New Case 482
+casebegin-Initial = 140    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 104:0xc05  20
+Differential Attack2 65:0xb0c0  14
+dca7bcc5
+afterenumerate-afterattack = 0    
+New Case 481
+casebegin-Initial = 140    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 87:0x40d  48
+Differential Attack2 40:0x5040  24
+fdd1544d
+afterenumerate-afterattack = 0    
+New Case 480
+casebegin-Initial = 156    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 73:0x409  28
+Differential Attack2 82:0x2040  28
+47622449
+afterenumerate-afterattack = 0    
+New Case 479
+casebegin-Initial = 172    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 92:0xb0c  40
+Differential Attack2 58:0x70f0  22
+8b507bfc
+afterenumerate-afterattack = 0    
+New Case 478
+casebegin-Initial = 172    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 100:0xf00  36
+Differential Attack2 65:0x2070  46
+27bb2f70
+afterenumerate-afterattack = 0    
+New Case 477
+casebegin-Initial = 187    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 98:0x709  28
+Differential Attack2 31:0x6090  18
+8a2d6799
+afterenumerate-afterattack = 0    
+New Case 476
+casebegin-Initial = 187    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 116:0x704  32
+Differential Attack2 69:0xf050  32
+48aaf754
+afterenumerate-afterattack = 0    
+New Case 475
+casebegin-Initial = 203    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 75:0x109  21
+Differential Attack2 117:0x1030  47
+26d81139
+afterenumerate-afterattack = 0    
+New Case 474
+casebegin-Initial = 203    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 85:0xf05  36
+Differential Attack2 88:0xe0e0  22
+243aefe5
+afterenumerate-afterattack = 0    
+New Case 473
+casebegin-Initial = 218    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 70:0x90c  10
+Differential Attack2 42:0x30d0  26
+2c0639dc
+afterenumerate-afterattack = 0    
+New Case 472
+casebegin-Initial = 218    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x107  58
+Differential Attack2 74:0xe080  30
+4122e187
+afterenumerate-afterattack = 0    
+New Case 471
+casebegin-Initial = 234    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 93:0x208  44
+Differential Attack2 82:0x20e0  28
+516422e8
+afterenumerate-afterattack = 0    
+New Case 470
+casebegin-Initial = 234    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 80:0x40f  40
+Differential Attack2 100:0x7050  42
+fd24745f
+afterenumerate-afterattack = 0    
+New Case 469
+casebegin-Initial = 250    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 116:0x80a  64
+Differential Attack2 109:0x4050  30
+f9b6485a
+afterenumerate-afterattack = 0    
+New Case 468
+casebegin-Initial = 250    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x90a  52
+Differential Attack2 54:0x7080  22
+1448798a
+afterenumerate-afterattack = 0    
+New Case 467
+casebegin-Initial = 265    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x10f  24
+Differential Attack2 77:0x0  20
+acbc010f
+afterenumerate-afterattack = 0    
+New Case 466
+casebegin-Initial = 265    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 98:0x0  26
+Differential Attack2 102:0x1090  19
+fd051090
+afterenumerate-afterattack = 0    
+New Case 465
+casebegin-Initial = 281    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0x404  22
+Differential Attack2 69:0x80b0  34
+018d84b4
+afterenumerate-afterattack = 0    
+New Case 464
+casebegin-Initial = 281    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 86:0xd0d  51
+Differential Attack2 67:0x4040  28
+44454d4d
+afterenumerate-afterattack = 0    
+New Case 463
+casebegin-Initial = 297    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 108:0x407  30
+Differential Attack2 38:0x9070  18
+7d089477
+afterenumerate-afterattack = 0    
+New Case 462
+casebegin-Initial = 297    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 103:0xf0a  41
+Differential Attack2 91:0x3060  40
+14383f6a
+afterenumerate-afterattack = 0    
+New Case 461
+casebegin-Initial = 312    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 106:0x406  18
+Differential Attack2 66:0xd020  28
+7c55d426
+afterenumerate-afterattack = 0    
+New Case 460
+casebegin-Initial = 312    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 115:0xc01  76
+Differential Attack2 83:0x1000  32
+13281c01
+afterenumerate-afterattack = 0    
+New Case 459
+casebegin-Initial = 328    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x309  32
+Differential Attack2 79:0x5090  48
+d0005399
+afterenumerate-afterattack = 0    
+New Case 458
+casebegin-Initial = 328    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 101:0x301  22
+Differential Attack2 78:0x5020  24
+1d995321
+afterenumerate-afterattack = 0    
+New Case 457
+casebegin-Initial = 343    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 111:0xe0d  80
+Differential Attack2 63:0x50  41
+d25e0e5d
+afterenumerate-afterattack = 0    
+New Case 456
+casebegin-Initial = 343    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 89:0xd03  50
+Differential Attack2 84:0x60d0  34
+4ba56dd3
+afterenumerate-afterattack = 0    
+New Case 455
+casebegin-Initial = 359    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 83:0x601  24
+Differential Attack2 84:0xd0d0  40
+a738d6d1
+afterenumerate-afterattack = 0    
+New Case 454
+casebegin-Initial = 359    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 90:0x90b  29
+Differential Attack2 104:0xc010  35
+e4c3c91b
+afterenumerate-afterattack = 0    
+New Case 453
+casebegin-Initial = 375    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0xf0f  21
+Differential Attack2 37:0x3060  14
+0d8a3f6f
+afterenumerate-afterattack = 0    
+New Case 452
+casebegin-Initial = 375    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x409  42
+Differential Attack2 93:0xa060  52
+156ba469
+afterenumerate-afterattack = 0    
+New Case 451
+casebegin-Initial = 390    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 113:0x206  70
+Differential Attack2 92:0x1070  35
+5a601276
+afterenumerate-afterattack = 0    
+New Case 450
+casebegin-Initial = 390    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 121:0x90e  23
+Differential Attack2 61:0x10  24
+e602091e
+afterenumerate-afterattack = 0    
+New Case 449
+casebegin-Initial = 406    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 118:0x306  26
+Differential Attack2 77:0xb010  18
+e7d5b316
+afterenumerate-afterattack = 16    
+New Case 448
+casebegin-Initial = 422    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 70:0x90b  20
+Differential Attack2 73:0xc090  30
+4de6c99b
+afterenumerate-afterattack = 0    
+New Case 447
+casebegin-Initial = 422    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 101:0x607  72
+Differential Attack2 92:0x80c0  24
+893486c7
+afterenumerate-afterattack = 15    
+New Case 446
+casebegin-Initial = 437    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x20e  36
+Differential Attack2 82:0xd030  26
+1cdfd23e
+afterenumerate-afterattack = 0    
+New Case 445
+casebegin-Initial = 437    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x20e  56
+Differential Attack2 98:0x9080  20
+8201928e
+afterenumerate-afterattack = 16    
+New Case 444
+casebegin-Initial = 453    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 129:0x7  54
+Differential Attack2 68:0x20a0  15
+1a8f20a7
+afterenumerate-afterattack = 0    
+New Case 443
+casebegin-Initial = 453    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 130:0x400  34
+Differential Attack2 79:0xe060  34
+2a74e460
+afterenumerate-afterattack = 0    
+New Case 442
+casebegin-Initial = 468    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 120:0x80f  64
+Differential Attack2 63:0x1070  24
+1e3e187f
+afterenumerate-afterattack = 0    
+New Case 441
+casebegin-Initial = 468    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 107:0xc06  32
+Differential Attack2 57:0xd060  20
+22a2dc66
+afterenumerate-afterattack = 0    
+New Case 440
+casebegin-Initial = 484    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x405  22
+Differential Attack2 72:0x50  42
+6a8e0455
+afterenumerate-afterattack = 0    
+New Case 439
+casebegin-Initial = 484    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 108:0x402  80
+Differential Attack2 84:0x9070  54
+09409472
+afterenumerate-afterattack = 0    
+New Case 438
+casebegin-Initial = 500    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x30d  33
+Differential Attack2 83:0x8000  32
+e540830d
+afterenumerate-afterattack = 0    
+New Case 437
+casebegin-Initial = 500    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xf06  78
+Differential Attack2 67:0xa0e0  32
+f352afe6
+afterenumerate-afterattack = 0    
+New Case 436
+casebegin-Initial = 515    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 92:0xc05  37
+Differential Attack2 59:0x8030  34
+1cec8c35
+afterenumerate-afterattack = 0    
+New Case 435
+casebegin-Initial = 515    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 84:0x604  25
+Differential Attack2 91:0xe0f0  52
+a459e6f4
+afterenumerate-afterattack = 0    
+New Case 434
+casebegin-Initial = 531    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 106:0x70a  33
+Differential Attack2 70:0xe040  40
+efa3e74a
+afterenumerate-afterattack = 0    
+New Case 433
+casebegin-Initial = 531    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x10f  34
+Differential Attack2 72:0x70a0  32
+516971af
+afterenumerate-afterattack = 0    
+New Case 432
+casebegin-Initial = 547    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 87:0x6  46
+Differential Attack2 79:0xa0d0  30
+746ca0d6
+afterenumerate-afterattack = 0    
+New Case 431
+casebegin-Initial = 547    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 94:0x50c  42
+Differential Attack2 74:0xd0e0  48
+77e8d5ec
+afterenumerate-afterattack = 0    
+New Case 430
+casebegin-Initial = 562    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x901  43
+Differential Attack2 48:0xd070  26
+15fdd971
+afterenumerate-afterattack = 0    
+New Case 429
+casebegin-Initial = 562    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 101:0x80d  26
+Differential Attack2 91:0xa0  46
+64dd08ad
+afterenumerate-afterattack = 0    
+New Case 428
+casebegin-Initial = 578    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 120:0xd0b  76
+Differential Attack2 62:0xe0f0  34
+1beeedfb
+afterenumerate-afterattack = 0    
+New Case 427
+casebegin-Initial = 578    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x603  55
+Differential Attack2 81:0xb0c0  30
+ce29b6c3
+afterenumerate-afterattack = 0    
+New Case 426
+casebegin-Initial = 593    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 76:0xd0c  28
+Differential Attack2 82:0xb070  57
+173dbd7c
+afterenumerate-afterattack = 0    
+New Case 425
+casebegin-Initial = 593    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 99:0x606  34
+Differential Attack2 84:0xe0c0  14
+dcfae6c6
+afterenumerate-afterattack = 0    
+New Case 424
+casebegin-Initial = 609    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 114:0xa0e  61
+Differential Attack2 133:0x9000  24
+73699a0e
+afterenumerate-afterattack = 0    
+New Case 423
+casebegin-Initial = 609    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 117:0x30a  24
+Differential Attack2 57:0x2080  24
+fd9c238a
+afterenumerate-afterattack = 0    
+New Case 422
+casebegin-Initial = 625    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 114:0xe00  52
+Differential Attack2 68:0x20c0  24
+eeeb2ec0
+afterenumerate-afterattack = 0    
+New Case 421
+casebegin-Initial = 625    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 113:0x40c  37
+Differential Attack2 88:0xc050  42
+050ec45c
+afterenumerate-afterattack = 0    
+New Case 420
+casebegin-Initial = 640    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 93:0x903  36
+Differential Attack2 31:0x4030  21
+1d0e4933
+afterenumerate-afterattack = 0    
+New Case 419
+casebegin-Initial = 640    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 98:0x40d  72
+Differential Attack2 52:0xe040  30
+5205e44d
+afterenumerate-afterattack = 0    
+New Case 418
+casebegin-Initial = 656    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 132:0xe0d  71
+Differential Attack2 86:0xe000  32
+ee48ee0d
+afterenumerate-afterattack = 0    
+New Case 417
+casebegin-Initial = 656    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 84:0xe06  44
+Differential Attack2 63:0x40e0  26
+8f354ee6
+afterenumerate-afterattack = 0    
+New Case 416
+casebegin-Initial = 672    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 83:0xf00  32
+Differential Attack2 65:0x1080  42
+778b1f80
+afterenumerate-afterattack = 0    
+New Case 415
+casebegin-Initial = 672    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 133:0x10d  29
+Differential Attack2 55:0x7010  14
+00b8711d
+afterenumerate-afterattack = 0    
+New Case 414
+casebegin-Initial = 687    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 72:0x507  26
+Differential Attack2 89:0x30a0  24
+167635a7
+afterenumerate-afterattack = 0    
+New Case 413
+casebegin-Initial = 687    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xf04  48
+Differential Attack2 86:0x7050  39
+90e57f54
+afterenumerate-afterattack = 0    
+New Case 412
+casebegin-Initial = 703    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x50c  56
+Differential Attack2 77:0xc0a0  54
+106dc5ac
+afterenumerate-afterattack = 0    
+New Case 411
+casebegin-Initial = 703    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xd0b  37
+Differential Attack2 75:0xf0  45
+38710dfb
+afterenumerate-afterattack = 0    
+New Case 410
+casebegin-Initial = 718    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 99:0x100  30
+Differential Attack2 66:0x5020  16
+1ed75120
+afterenumerate-afterattack = 0    
+New Case 409
+casebegin-Initial = 718    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 99:0x309  44
+Differential Attack2 89:0x2030  18
+baae2339
+afterenumerate-afterattack = 0    
+New Case 408
+casebegin-Initial = 734    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 123:0x30a  48
+Differential Attack2 74:0xf060  42
+70eaf36a
+afterenumerate-afterattack = 0    
+New Case 407
+casebegin-Initial = 734    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 108:0x103  31
+Differential Attack2 75:0x7000  44
+2a827103
+afterenumerate-afterattack = 0    
+New Case 406
+casebegin-Initial = 750    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 95:0x602  70
+Differential Attack2 72:0x7090  38
+e3cc7692
+afterenumerate-afterattack = 0    
+New Case 405
+casebegin-Initial = 750    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 112:0x20d  67
+Differential Attack2 75:0x50b0  36
+ff7352bd
+afterenumerate-afterattack = 0    
+New Case 404
+casebegin-Initial = 765    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 90:0x406  48
+Differential Attack2 65:0x6060  18
+17ad6466
+afterenumerate-afterattack = 0    
+New Case 403
+casebegin-Initial = 765    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 111:0xb0e  19
+Differential Attack2 37:0x10e0  21
+a6d91bee
+afterenumerate-afterattack = 0    
+New Case 402
+casebegin-Initial = 781    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 90:0x301  35
+Differential Attack2 49:0x1070  18
+e6cf1371
+afterenumerate-afterattack = 0    
+New Case 401
+casebegin-Initial = 781    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 106:0xc00  56
+Differential Attack2 72:0x9050  24
+7b6c9c50
+afterenumerate-afterattack = 0    
+New Case 400
+casebegin-Initial = 797    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 116:0x304  70
+Differential Attack2 88:0x50a0  38
+7ea853a4
+afterenumerate-afterattack = 0    
+New Case 399
+casebegin-Initial = 797    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 109:0x203  37
+Differential Attack2 62:0x20b0  25
+e8c622b3
+afterenumerate-afterattack = 0    
+New Case 398
+casebegin-Initial = 812    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x803  31
+Differential Attack2 81:0x80  14
+1bd10883
+afterenumerate-afterattack = 0    
+New Case 397
+casebegin-Initial = 812    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 103:0xf06  28
+Differential Attack2 77:0xb0d0  50
+6eb8bfd6
+afterenumerate-afterattack = 0    
+New Case 396
+casebegin-Initial = 828    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 99:0x806  28
+Differential Attack2 54:0x50a0  13
+01ca58a6
+afterenumerate-afterattack = 0    
+New Case 395
+casebegin-Initial = 828    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 80:0x904  30
+Differential Attack2 115:0x4030  61
+c6cd4934
+afterenumerate-afterattack = 0    
+New Case 394
+casebegin-Initial = 843    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 101:0x806  18
+Differential Attack2 65:0x40c0  26
+1d7048c6
+afterenumerate-afterattack = 0    
+New Case 393
+casebegin-Initial = 843    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x100  36
+Differential Attack2 66:0x3090  38
+4cb33190
+afterenumerate-afterattack = 0    
+New Case 392
+casebegin-Initial = 859    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x604  80
+Differential Attack2 69:0x7030  30
+79487634
+afterenumerate-afterattack = 0    
+New Case 391
+casebegin-Initial = 859    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 90:0x204  42
+Differential Attack2 107:0xc020  14
+d4fbc224
+afterenumerate-afterattack = 0    
+New Case 390
+casebegin-Initial = 875    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 112:0x30e  64
+Differential Attack2 63:0xd0f0  28
+e24ed3fe
+afterenumerate-afterattack = 15    
+New Case 389
+casebegin-Initial = 890    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x6  56
+Differential Attack2 87:0x80  24
+1b3b0086
+afterenumerate-afterattack = 0    
+New Case 388
+casebegin-Initial = 890    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xe08  29
+Differential Attack2 63:0x90a0  28
+0eaa9ea8
+afterenumerate-afterattack = 0    
+New Case 387
+casebegin-Initial = 906    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x902  63
+Differential Attack2 95:0x10  36
+48b10912
+afterenumerate-afterattack = 0    
+New Case 386
+casebegin-Initial = 906    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 107:0xf07  29
+Differential Attack2 74:0x10e0  31
+f5ec1fe7
+afterenumerate-afterattack = 0    
+New Case 385
+casebegin-Initial = 922    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 84:0xe09  41
+Differential Attack2 70:0xb0f0  28
+8d10bef9
+afterenumerate-afterattack = 0    
+New Case 384
+casebegin-Initial = 922    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 106:0xa0b  56
+Differential Attack2 73:0xf070  23
+7f2bfa7b
+afterenumerate-afterattack = 0    
+New Case 383
+casebegin-Initial = 937    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 111:0x40a  40
+Differential Attack2 58:0x9000  14
+1edb940a
+afterenumerate-afterattack = 0    
+New Case 382
+casebegin-Initial = 937    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 110:0xc  80
+Differential Attack2 63:0xc0d0  26
+42b2c0dc
+afterenumerate-afterattack = 0    
+New Case 381
+casebegin-Initial = 953    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0xc0f  63
+Differential Attack2 70:0x8060  24
+98e48c6f
+afterenumerate-afterattack = 0    
+New Case 380
+casebegin-Initial = 953    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x202  29
+Differential Attack2 70:0x3070  34
+08693272
+afterenumerate-afterattack = 0    
+New Case 379
+casebegin-Initial = 968    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0xa05  40
+Differential Attack2 120:0x9080  29
+32919a85
+afterenumerate-afterattack = 0    
+New Case 378
+casebegin-Initial = 968    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 91:0x403  50
+Differential Attack2 89:0xa090  24
+44f3a493
+afterenumerate-afterattack = 0    
+New Case 377
+casebegin-Initial = 984    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 113:0x602  48
+Differential Attack2 82:0xc090  50
+b04bc692
+afterenumerate-afterattack = 0    
+New Case 376
+casebegin-Initial = 984    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 109:0xa01  68
+Differential Attack2 78:0x10b0  28
+707f1ab1
+afterenumerate-afterattack = 0    
+New Case 375
+casebegin-Initial = 1000    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 87:0x60c  29
+Differential Attack2 62:0x8090  14
+30a7869c
+afterenumerate-afterattack = 0    
+New Case 374
+casebegin-Initial = 1000    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 100:0xe09  45
+Differential Attack2 73:0x90e0  32
+bbad9ee9
+afterenumerate-afterattack = 0    
+New Case 373
+casebegin-Initial = 1015    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x706  32
+Differential Attack2 87:0xa020  18
+edafa726
+afterenumerate-afterattack = 16    
+New Case 372
+casebegin-Initial = 1031    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x30c  60
+Differential Attack2 87:0x90f0  56
+0f0193fc
+afterenumerate-afterattack = 0    
+New Case 371
+casebegin-Initial = 1031    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 99:0xa0b  33
+Differential Attack2 88:0xe030  36
+bae5ea3b
+afterenumerate-afterattack = 16    
+New Case 370
+casebegin-Initial = 1047    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 116:0xe0c  44
+Differential Attack2 69:0xf0a0  43
+bc4efeac
+afterenumerate-afterattack = 0    
+New Case 369
+casebegin-Initial = 1047    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 121:0xb02  22
+Differential Attack2 76:0x6040  28
+678c6b42
+afterenumerate-afterattack = 0    
+New Case 368
+casebegin-Initial = 1062    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 98:0x60b  46
+Differential Attack2 73:0xa020  38
+779ca62b
+afterenumerate-afterattack = 0    
+New Case 367
+casebegin-Initial = 1062    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 91:0x609  36
+Differential Attack2 74:0xc040  22
+e803c649
+afterenumerate-afterattack = 0    
+New Case 366
+casebegin-Initial = 1078    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 117:0xd08  70
+Differential Attack2 44:0xe090  32
+4131ed98
+afterenumerate-afterattack = 0    
+New Case 365
+casebegin-Initial = 1078    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 104:0xa06  24
+Differential Attack2 37:0x5040  18
+6c1c5a46
+afterenumerate-afterattack = 0    
+New Case 364
+casebegin-Initial = 1093    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 93:0x705  77
+Differential Attack2 75:0xb010  46
+0363b715
+afterenumerate-afterattack = 0    
+New Case 363
+casebegin-Initial = 1093    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 97:0xc0f  59
+Differential Attack2 74:0xa020  20
+c4c9ac2f
+afterenumerate-afterattack = 0    
+New Case 362
+casebegin-Initial = 1109    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0xd0d  56
+Differential Attack2 67:0xa090  36
+45d4ad9d
+afterenumerate-afterattack = 0    
+New Case 361
+casebegin-Initial = 1109    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 80:0x40b  26
+Differential Attack2 80:0xc060  30
+4617c46b
+afterenumerate-afterattack = 0    
+New Case 360
+casebegin-Initial = 1125    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 94:0x307  58
+Differential Attack2 80:0xa0e0  34
+73fea3e7
+afterenumerate-afterattack = 0    
+New Case 359
+casebegin-Initial = 1125    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 94:0x507  34
+Differential Attack2 72:0x1070  39
+c67f1577
+afterenumerate-afterattack = 0    
+New Case 358
+casebegin-Initial = 1140    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0x40d  68
+Differential Attack2 100:0x3020  48
+3108342d
+afterenumerate-afterattack = 0    
+New Case 357
+casebegin-Initial = 1140    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x709  31
+Differential Attack2 33:0xf0d0  14
+33d3f7d9
+afterenumerate-afterattack = 0    
+New Case 356
+casebegin-Initial = 1156    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xb0f  55
+Differential Attack2 36:0x70d0  20
+04e67bdf
+afterenumerate-afterattack = 0    
+New Case 355
+casebegin-Initial = 1156    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 71:0xe08  12
+Differential Attack2 73:0xf0b0  36
+66f9feb8
+afterenumerate-afterattack = 0    
+New Case 354
+casebegin-Initial = 1172    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 108:0x8  57
+Differential Attack2 63:0xc0f0  20
+35c9c0f8
+afterenumerate-afterattack = 0    
+New Case 353
+casebegin-Initial = 1172    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 93:0x902  71
+Differential Attack2 101:0x7020  46
+93d47922
+afterenumerate-afterattack = 0    
+New Case 352
+casebegin-Initial = 1187    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 121:0xf05  14
+Differential Attack2 68:0x20  22
+6c7f0f25
+afterenumerate-afterattack = 0    
+New Case 351
+casebegin-Initial = 1187    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 88:0xd01  39
+Differential Attack2 89:0x60f0  29
+165f6df1
+afterenumerate-afterattack = 0    
+New Case 350
+casebegin-Initial = 1203    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 108:0x70a  39
+Differential Attack2 74:0x7000  32
+c896770a
+afterenumerate-afterattack = 0    
+New Case 349
+casebegin-Initial = 1203    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 106:0x800  64
+Differential Attack2 86:0x60b0  20
+820068b0
+afterenumerate-afterattack = 0    
+New Case 348
+casebegin-Initial = 1218    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0xa09  42
+Differential Attack2 74:0xd040  38
+0684da49
+afterenumerate-afterattack = 0    
+New Case 347
+casebegin-Initial = 1218    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 83:0xe06  26
+Differential Attack2 82:0x6010  52
+2ab56e16
+afterenumerate-afterattack = 0    
+New Case 346
+casebegin-Initial = 1234    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 78:0x209  22
+Differential Attack2 82:0x50c0  48
+cc3752c9
+afterenumerate-afterattack = 0    
+New Case 345
+casebegin-Initial = 1234    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 91:0x70a  52
+Differential Attack2 62:0x30c0  26
+b04b37ca
+afterenumerate-afterattack = 0    
+New Case 344
+casebegin-Initial = 1250    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 97:0xd0b  26
+Differential Attack2 42:0xe0a0  23
+6e1dedab
+afterenumerate-afterattack = 0    
+New Case 343
+casebegin-Initial = 1250    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 96:0xb06  69
+Differential Attack2 78:0x60c0  22
+384b6bc6
+afterenumerate-afterattack = 0    
+New Case 342
+casebegin-Initial = 1265    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 101:0x903  54
+Differential Attack2 57:0x4070  28
+300b4973
+afterenumerate-afterattack = 0    
+New Case 341
+casebegin-Initial = 1265    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 78:0x400  20
+Differential Attack2 104:0x4050  32
+c78b4450
+afterenumerate-afterattack = 0    
+New Case 340
+casebegin-Initial = 1281    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 109:0x603  72
+Differential Attack2 58:0x6080  30
+09656683
+afterenumerate-afterattack = 0    
+New Case 339
+casebegin-Initial = 1281    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 107:0xd00  64
+Differential Attack2 45:0x2040  22
+90002d40
+afterenumerate-afterattack = 0    
+New Case 338
+casebegin-Initial = 1297    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 86:0x90e  36
+Differential Attack2 81:0xf0  32
+362a09fe
+afterenumerate-afterattack = 0    
+New Case 337
+casebegin-Initial = 1297    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 86:0xe09  23
+Differential Attack2 54:0x8090  32
+6da08e99
+afterenumerate-afterattack = 0    
+New Case 336
+casebegin-Initial = 1312    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 101:0x802  40
+Differential Attack2 52:0x4070  14
+697d4872
+afterenumerate-afterattack = 0    
+New Case 335
+casebegin-Initial = 1312    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 94:0x900  72
+Differential Attack2 71:0x3050  20
+f2273950
+afterenumerate-afterattack = 0    
+New Case 334
+casebegin-Initial = 1328    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 124:0x207  27
+Differential Attack2 41:0x1040  26
+c1341247
+afterenumerate-afterattack = 0    
+New Case 333
+casebegin-Initial = 1328    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 119:0xf09  47
+Differential Attack2 87:0xa010  26
+705caf19
+afterenumerate-afterattack = 0    
+New Case 332
+casebegin-Initial = 1343    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 85:0x20f  48
+Differential Attack2 73:0x6040  16
+0f27624f
+afterenumerate-afterattack = 0    
+New Case 331
+casebegin-Initial = 1343    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 93:0xd05  42
+Differential Attack2 85:0x50f0  56
+de285df5
+afterenumerate-afterattack = 0    
+New Case 330
+casebegin-Initial = 1359    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 93:0xe0e  25
+Differential Attack2 61:0x5000  26
+c7b45e0e
+afterenumerate-afterattack = 0    
+New Case 329
+casebegin-Initial = 1359    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x300  44
+Differential Attack2 103:0x2070  42
+5c732370
+afterenumerate-afterattack = 0    
+New Case 328
+casebegin-Initial = 1375    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 113:0x408  24
+Differential Attack2 95:0x40f0  38
+67ba44f8
+afterenumerate-afterattack = 0    
+New Case 327
+casebegin-Initial = 1375    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 94:0x90c  21
+Differential Attack2 84:0xe0c0  28
+ca17e9cc
+afterenumerate-afterattack = 0    
+New Case 326
+casebegin-Initial = 1390    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x104  64
+Differential Attack2 123:0xc020  28
+39a8c124
+afterenumerate-afterattack = 0    
+New Case 325
+casebegin-Initial = 1390    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x202  30
+Differential Attack2 86:0x1070  48
+31d71272
+afterenumerate-afterattack = 0    
+New Case 324
+casebegin-Initial = 1406    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 108:0xb05  40
+Differential Attack2 77:0x80d0  12
+28468bd5
+afterenumerate-afterattack = 0    
+New Case 323
+casebegin-Initial = 1406    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 51:0xb03  6
+Differential Attack2 66:0x10e0  20
+675c1be3
+afterenumerate-afterattack = 0    
+New Case 322
+casebegin-Initial = 1422    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 94:0x503  48
+Differential Attack2 67:0x2020  44
+3b092523
+afterenumerate-afterattack = 0    
+New Case 321
+casebegin-Initial = 1422    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 84:0xc08  27
+Differential Attack2 86:0xc010  46
+9bfccc18
+afterenumerate-afterattack = 0    
+New Case 320
+casebegin-Initial = 1437    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 106:0x406  29
+Differential Attack2 92:0xe090  44
+60dae496
+afterenumerate-afterattack = 0    
+New Case 319
+casebegin-Initial = 1437    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 89:0xa0b  20
+Differential Attack2 102:0xa0e0  44
+047baaeb
+afterenumerate-afterattack = 0    
+New Case 318
+casebegin-Initial = 1453    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 125:0xf01  40
+Differential Attack2 51:0x9010  26
+c2379f11
+afterenumerate-afterattack = 0    
+New Case 317
+casebegin-Initial = 1453    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 116:0xf02  24
+Differential Attack2 86:0xb0a0  34
+8cacbfa2
+afterenumerate-afterattack = 0    
+New Case 316
+casebegin-Initial = 1468    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0xf0a  26
+Differential Attack2 71:0x2090  42
+37a42f9a
+afterenumerate-afterattack = 0    
+New Case 315
+casebegin-Initial = 1468    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x90d  80
+Differential Attack2 64:0x8040  26
+2978894d
+afterenumerate-afterattack = 0    
+New Case 314
+casebegin-Initial = 1484    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 124:0x706  40
+Differential Attack2 61:0xb050  19
+c312b756
+afterenumerate-afterattack = 0    
+New Case 313
+casebegin-Initial = 1484    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x109  26
+Differential Attack2 73:0xd050  31
+aaafd159
+afterenumerate-afterattack = 0    
+New Case 312
+casebegin-Initial = 1500    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 85:0x804  21
+Differential Attack2 83:0x5050  30
+64b95854
+afterenumerate-afterattack = 0    
+New Case 311
+casebegin-Initial = 1500    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 84:0xa0d  35
+Differential Attack2 62:0x9070  24
+36cf9a7d
+afterenumerate-afterattack = 0    
+New Case 310
+casebegin-Initial = 1515    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 120:0xc00  56
+Differential Attack2 58:0xa000  14
+2a4fac00
+afterenumerate-afterattack = 0    
+New Case 309
+casebegin-Initial = 1515    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 105:0x80b  72
+Differential Attack2 77:0xb0c0  30
+df6bb8cb
+afterenumerate-afterattack = 0    
+New Case 308
+casebegin-Initial = 1531    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x90a  37
+Differential Attack2 30:0x8050  18
+33e0895a
+afterenumerate-afterattack = 0    
+New Case 307
+casebegin-Initial = 1531    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 90:0x90a  58
+Differential Attack2 102:0xd0d0  28
+8b00d9da
+afterenumerate-afterattack = 0    
+New Case 306
+casebegin-Initial = 1547    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 99:0x805  88
+Differential Attack2 101:0xe040  28
+228ee845
+afterenumerate-afterattack = 0    
+New Case 305
+casebegin-Initial = 1547    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 95:0x706  47
+Differential Attack2 84:0x70a0  18
+6f2577a6
+afterenumerate-afterattack = 0    
+New Case 304
+casebegin-Initial = 1562    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0xd08  52
+Differential Attack2 91:0x10c0  20
+6b711dc8
+afterenumerate-afterattack = 0    
+New Case 303
+casebegin-Initial = 1562    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 109:0xc03  33
+Differential Attack2 90:0xc080  26
+dae7cc83
+afterenumerate-afterattack = 0    
+New Case 302
+casebegin-Initial = 1578    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 114:0x70d  29
+Differential Attack2 75:0xf070  20
+dbd0f77d
+afterenumerate-afterattack = 0    
+New Case 301
+casebegin-Initial = 1578    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 124:0x402  29
+Differential Attack2 70:0x40e0  30
+7bf144e2
+afterenumerate-afterattack = 0    
+New Case 300
+casebegin-Initial = 1593    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x500  29
+Differential Attack2 57:0x80d0  12
+348385d0
+afterenumerate-afterattack = 0    
+New Case 299
+casebegin-Initial = 1593    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 118:0xa0c  28
+Differential Attack2 57:0xb0c0  20
+d704bacc
+afterenumerate-afterattack = 0    
+New Case 298
+casebegin-Initial = 1609    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0x300  28
+Differential Attack2 80:0x8060  24
+da318360
+afterenumerate-afterattack = 16    
+New Case 297
+casebegin-Initial = 1625    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 120:0xe0e  28
+Differential Attack2 70:0xd0a0  30
+7df2deae
+afterenumerate-afterattack = 0    
+New Case 296
+casebegin-Initial = 1625    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0x502  28
+Differential Attack2 70:0xb000  26
+6d13b502
+afterenumerate-afterattack = 0    
+New Case 295
+casebegin-Initial = 1625    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 108:0xe06  32
+Differential Attack2 93:0x90  52
+d0b20e96
+afterenumerate-afterattack = 0    
+New Case 294
+casebegin-Initial = 1640    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xa  71
+Differential Attack2 102:0x30d0  42
+23cd30da
+afterenumerate-afterattack = 16    
+New Case 293
+casebegin-Initial = 1656    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0xf0a  24
+Differential Attack2 74:0xe020  20
+2a32ef2a
+afterenumerate-afterattack = 0    
+New Case 292
+casebegin-Initial = 1656    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 111:0x40e  21
+Differential Attack2 83:0x6000  46
+3a61640e
+afterenumerate-afterattack = 0    
+New Case 291
+casebegin-Initial = 1656    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 81:0x204  10
+Differential Attack2 59:0xe070  27
+7d38e274
+afterenumerate-afterattack = 0    
+New Case 290
+casebegin-Initial = 1672    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x101  63
+Differential Attack2 70:0xd010  24
+212dd111
+afterenumerate-afterattack = 0    
+New Case 289
+casebegin-Initial = 1672    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 85:0x30f  19
+Differential Attack2 65:0x2040  26
+8019234f
+afterenumerate-afterattack = 0    
+New Case 288
+casebegin-Initial = 1687    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x10d  66
+Differential Attack2 62:0x10c0  14
+6a3611cd
+afterenumerate-afterattack = 0    
+New Case 287
+casebegin-Initial = 1687    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 95:0xe04  61
+Differential Attack2 90:0x1000  44
+2e8e1e04
+afterenumerate-afterattack = 0    
+New Case 286
+casebegin-Initial = 1703    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 115:0xa0a  50
+Differential Attack2 65:0x40e0  42
+da7b4aea
+afterenumerate-afterattack = 0    
+New Case 285
+casebegin-Initial = 1703    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 80:0x209  16
+Differential Attack2 92:0x4050  38
+8dad4259
+afterenumerate-afterattack = 0    
+New Case 284
+casebegin-Initial = 1718    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x804  18
+Differential Attack2 54:0xd080  20
+3d60d884
+afterenumerate-afterattack = 0    
+New Case 283
+casebegin-Initial = 1718    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 114:0x403  42
+Differential Attack2 99:0x70f0  38
+275874f3
+afterenumerate-afterattack = 0    
+New Case 282
+casebegin-Initial = 1734    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 94:0xa0f  78
+Differential Attack2 88:0x20  30
+d1b80a2f
+afterenumerate-afterattack = 0    
+New Case 281
+casebegin-Initial = 1734    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 111:0xc06  56
+Differential Attack2 97:0x8020  34
+85928c26
+afterenumerate-afterattack = 0    
+New Case 280
+casebegin-Initial = 1750    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 127:0x405  30
+Differential Attack2 70:0xb050  28
+74f4b455
+afterenumerate-afterattack = 0    
+New Case 279
+casebegin-Initial = 1750    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 73:0xd0a  21
+Differential Attack2 86:0x6020  44
+26ae6d2a
+afterenumerate-afterattack = 0    
+New Case 278
+casebegin-Initial = 1765    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0x30f  21
+Differential Attack2 69:0x5090  42
+2ae6539f
+afterenumerate-afterattack = 0    
+New Case 277
+casebegin-Initial = 1765    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 95:0xf00  40
+Differential Attack2 65:0x7090  46
+dc6e7f90
+afterenumerate-afterattack = 0    
+New Case 276
+casebegin-Initial = 1781    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 126:0xc08  20
+Differential Attack2 83:0x5060  48
+3b825c68
+afterenumerate-afterattack = 0    
+New Case 275
+casebegin-Initial = 1781    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 108:0x605  64
+Differential Attack2 83:0x3080  32
+8be43685
+afterenumerate-afterattack = 0    
+New Case 274
+casebegin-Initial = 1797    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 117:0xf0a  36
+Differential Attack2 61:0x1010  26
+28471f1a
+afterenumerate-afterattack = 0    
+New Case 273
+casebegin-Initial = 1797    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 72:0x10e  13
+Differential Attack2 89:0x8060  26
+7645816e
+afterenumerate-afterattack = 0    
+New Case 272
+casebegin-Initial = 1812    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 124:0x80f  35
+Differential Attack2 98:0xf090  26
+7395f89f
+afterenumerate-afterattack = 0    
+New Case 271
+casebegin-Initial = 1812    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 97:0xd0d  59
+Differential Attack2 104:0x20b0  47
+d8da2dbd
+afterenumerate-afterattack = 0    
+New Case 270
+casebegin-Initial = 1828    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xc  64
+Differential Attack2 62:0xa0  30
+d2fc00ac
+afterenumerate-afterattack = 0    
+New Case 269
+casebegin-Initial = 1828    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x108  20
+Differential Attack2 104:0xb0f0  28
+21b5b1f8
+afterenumerate-afterattack = 0    
+New Case 268
+casebegin-Initial = 1843    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0x50b  28
+Differential Attack2 75:0x70a0  42
+34e275ab
+afterenumerate-afterattack = 0    
+New Case 267
+casebegin-Initial = 1843    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 105:0x60b  80
+Differential Attack2 79:0x6010  34
+8980661b
+afterenumerate-afterattack = 0    
+New Case 266
+casebegin-Initial = 1859    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x50b  64
+Differential Attack2 82:0x6070  36
+d05f657b
+afterenumerate-afterattack = 0    
+New Case 265
+casebegin-Initial = 1859    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xf0d  71
+Differential Attack2 73:0x3090  50
+73ce3f9d
+afterenumerate-afterattack = 0    
+New Case 264
+casebegin-Initial = 1875    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0xa09  25
+Differential Attack2 87:0x4050  24
+74574a59
+afterenumerate-afterattack = 0    
+New Case 263
+casebegin-Initial = 1875    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 108:0xb0b  29
+Differential Attack2 69:0xf000  24
+daf6fb0b
+afterenumerate-afterattack = 0    
+New Case 262
+casebegin-Initial = 1890    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 111:0xe01  32
+Differential Attack2 92:0xd080  28
+2941de81
+afterenumerate-afterattack = 0    
+New Case 261
+casebegin-Initial = 1890    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 117:0xc09  32
+Differential Attack2 54:0x1090  32
+22121c99
+afterenumerate-afterattack = 0    
+New Case 260
+casebegin-Initial = 1906    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x105  40
+Differential Attack2 100:0x9030  28
+32a59135
+afterenumerate-afterattack = 0    
+New Case 259
+casebegin-Initial = 1906    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x50e  71
+Differential Attack2 85:0x1000  63
+75ba150e
+afterenumerate-afterattack = 0    
+New Case 258
+casebegin-Initial = 1922    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 108:0x60e  28
+Differential Attack2 84:0x30c0  48
+21c036ce
+afterenumerate-afterattack = 0    
+New Case 257
+casebegin-Initial = 1922    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 95:0x604  28
+Differential Attack2 92:0xd0d0  40
+821dd6d4
+afterenumerate-afterattack = 0    
+New Case 256
+casebegin-Initial = 1937    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 93:0x703  24
+Differential Attack2 70:0xe050  26
+7036e753
+afterenumerate-afterattack = 0    
+New Case 255
+casebegin-Initial = 1937    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 99:0x907  36
+Differential Attack2 59:0xf010  22
+3286f917
+afterenumerate-afterattack = 0    
+New Case 254
+casebegin-Initial = 1953    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xd00  72
+Differential Attack2 43:0xa0f0  16
+d9dfadf0
+afterenumerate-afterattack = 0    
+New Case 253
+casebegin-Initial = 1953    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 70:0x702  24
+Differential Attack2 60:0xa040  20
+d749a742
+afterenumerate-afterattack = 0    
+New Case 252
+casebegin-Initial = 1968    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 79:0x50d  10
+Differential Attack2 76:0x3070  30
+3745357d
+afterenumerate-afterattack = 0    
+New Case 251
+casebegin-Initial = 1968    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 75:0x508  18
+Differential Attack2 87:0x90b0  37
+5f9e95b8
+afterenumerate-afterattack = 0    
+New Case 250
+casebegin-Initial = 1984    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x90d  80
+Differential Attack2 44:0xe0f0  18
+d9fce9fd
+afterenumerate-afterattack = 0    
+New Case 249
+casebegin-Initial = 1984    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 113:0xb0c  41
+Differential Attack2 69:0x70b0  28
+9d527bbc
+afterenumerate-afterattack = 0    
+New Case 248
+casebegin-Initial = 2000    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 80:0x30f  19
+Differential Attack2 76:0x6080  30
+7f54638f
+afterenumerate-afterattack = 0    
+New Case 247
+casebegin-Initial = 2000    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 69:0x900  24
+Differential Attack2 65:0xa0f0  20
+2c0aa9f0
+afterenumerate-afterattack = 0    
+New Case 246
+casebegin-Initial = 2015    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 92:0x605  20
+Differential Attack2 71:0xb0c0  22
+24c2b6c5
+afterenumerate-afterattack = 0    
+New Case 245
+casebegin-Initial = 2015    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 92:0xa0e  20
+Differential Attack2 49:0xc060  12
+d082ca6e
+afterenumerate-afterattack = 0    
+New Case 244
+casebegin-Initial = 2031    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 113:0xd07  25
+Differential Attack2 95:0xb0b0  35
+2126bdb7
+afterenumerate-afterattack = 0    
+New Case 243
+casebegin-Initial = 2031    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 112:0x306  31
+Differential Attack2 93:0xc030  46
+81cbc336
+afterenumerate-afterattack = 0    
+New Case 242
+casebegin-Initial = 2047    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 111:0x200  54
+Differential Attack2 80:0xc080  42
+0063c280
+afterenumerate-afterattack = 0    
+New Case 241
+casebegin-Initial = 2047    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 101:0x405  23
+Differential Attack2 72:0x4010  36
+7ce14415
+afterenumerate-afterattack = 0    
+New Case 240
+casebegin-Initial = 2062    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0xb04  32
+Differential Attack2 71:0x0  36
+79900b04
+afterenumerate-afterattack = 0    
+New Case 239
+casebegin-Initial = 2062    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 106:0xa06  26
+Differential Attack2 76:0xd0e0  30
+c63edae6
+afterenumerate-afterattack = 0    
+New Case 238
+casebegin-Initial = 2078    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x3  24
+Differential Attack2 120:0xf0a0  38
+fc3df0a3
+afterenumerate-afterattack = 0    
+New Case 237
+casebegin-Initial = 2078    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 90:0x70f  50
+Differential Attack2 62:0x4020  30
+0115472f
+afterenumerate-afterattack = 0    
+New Case 236
+casebegin-Initial = 2093    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 87:0x809  41
+Differential Attack2 73:0x8030  28
+2e6e8839
+afterenumerate-afterattack = 0    
+New Case 235
+casebegin-Initial = 2093    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x101  64
+Differential Attack2 54:0x9000  30
+a9e39101
+afterenumerate-afterattack = 0    
+New Case 234
+casebegin-Initial = 2109    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x0  56
+Differential Attack2 83:0x90a0  28
+eaff90a0
+afterenumerate-afterattack = 0    
+New Case 233
+casebegin-Initial = 2109    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 106:0x906  32
+Differential Attack2 50:0xc040  18
+6b2ac946
+afterenumerate-afterattack = 0    
+New Case 232
+casebegin-Initial = 2125    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 99:0xf0a  23
+Differential Attack2 72:0xa0e0  44
+7ef3afea
+afterenumerate-afterattack = 0    
+New Case 231
+casebegin-Initial = 2125    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 108:0x208  30
+Differential Attack2 100:0x1070  58
+db561278
+afterenumerate-afterattack = 0    
+New Case 230
+casebegin-Initial = 2140    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 42:0xb02  6
+Differential Attack2 88:0x10  35
+1d210b12
+afterenumerate-afterattack = 0    
+New Case 229
+casebegin-Initial = 2140    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 57:0x906  20
+Differential Attack2 65:0xf0c0  22
+3cdcf9c6
+afterenumerate-afterattack = 0    
+New Case 228
+casebegin-Initial = 2156    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 98:0x40b  72
+Differential Attack2 104:0x20e0  42
+298d24eb
+afterenumerate-afterattack = 0    
+New Case 227
+casebegin-Initial = 2156    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 73:0x107  28
+Differential Attack2 84:0xd090  50
+67d7d197
+afterenumerate-afterattack = 0    
+New Case 226
+casebegin-Initial = 2172    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 129:0xf07  34
+Differential Attack2 60:0xc0d0  26
+1ac4cfd7
+afterenumerate-afterattack = 0    
+New Case 225
+casebegin-Initial = 2172    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x70e  29
+Differential Attack2 74:0x30a0  42
+8aff37ae
+afterenumerate-afterattack = 0    
+New Case 224
+casebegin-Initial = 2187    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 101:0x208  31
+Differential Attack2 82:0x20  24
+70930228
+afterenumerate-afterattack = 0    
+New Case 223
+casebegin-Initial = 2187    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 119:0x40d  40
+Differential Attack2 78:0xc0  45
+396204cd
+afterenumerate-afterattack = 0    
+New Case 222
+casebegin-Initial = 2203    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0xf  69
+Differential Attack2 79:0x5000  37
+e5aa500f
+afterenumerate-afterattack = 0    
+New Case 221
+casebegin-Initial = 2203    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x40e  28
+Differential Attack2 92:0x50a0  28
+ff4f54ae
+afterenumerate-afterattack = 0    
+New Case 220
+casebegin-Initial = 2218    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 95:0x206  36
+Differential Attack2 93:0xe020  19
+2fe9e226
+afterenumerate-afterattack = 0    
+New Case 219
+casebegin-Initial = 2218    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 111:0x203  34
+Differential Attack2 77:0x6040  23
+55bb6243
+afterenumerate-afterattack = 0    
+New Case 218
+casebegin-Initial = 2234    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 95:0xc02  82
+Differential Attack2 51:0x10c0  24
+e3491cc2
+afterenumerate-afterattack = 0    
+New Case 217
+casebegin-Initial = 2234    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xe07  56
+Differential Attack2 63:0x90e0  19
+9f749ee7
+afterenumerate-afterattack = 0    
+New Case 216
+casebegin-Initial = 2250    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 69:0x200  24
+Differential Attack2 64:0x80b0  28
+571082b0
+afterenumerate-afterattack = 0    
+New Case 215
+casebegin-Initial = 2250    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 98:0x60b  24
+Differential Attack2 88:0x50c0  34
+370656cb
+afterenumerate-afterattack = 0    
+New Case 214
+casebegin-Initial = 2265    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 86:0x70e  18
+Differential Attack2 68:0x4070  28
+1c16477e
+afterenumerate-afterattack = 0    
+New Case 213
+casebegin-Initial = 2265    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 89:0xf0d  22
+Differential Attack2 63:0x2070  52
+caa02f7d
+afterenumerate-afterattack = 0    
+New Case 212
+casebegin-Initial = 2281    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xb0c  52
+Differential Attack2 101:0x40a0  32
+20eb4bac
+afterenumerate-afterattack = 0    
+New Case 211
+casebegin-Initial = 2281    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 78:0x20c  18
+Differential Attack2 83:0xb060  16
+Differential Attack2 82:0xa060  16
+Differential Attack2 81:0x3060  16
+Differential Attack2 80:0x2060  16
+9d0f226c
+afterenumerate-afterattack = 0    
+New Case 210
+casebegin-Initial = 2297    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 119:0x603  31
+Differential Attack2 34:0x20f0  12
+1bd726f3
+afterenumerate-afterattack = 0    
+New Case 209
+casebegin-Initial = 2297    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 117:0x306  19
+Differential Attack2 76:0xb080  44
+60aeb386
+afterenumerate-afterattack = 0    
+New Case 208
+casebegin-Initial = 2312    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 89:0x60e  54
+Differential Attack2 76:0xf070  26
+5172f67e
+afterenumerate-afterattack = 0    
+New Case 207
+casebegin-Initial = 2328    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 106:0x60d  49
+Differential Attack2 76:0x1070  44
+cf3e167d
+afterenumerate-afterattack = 0    
+New Case 206
+casebegin-Initial = 2328    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 97:0xd09  49
+Differential Attack2 95:0x1050  24
+ee0b1d59
+afterenumerate-afterattack = 0    
+New Case 205
+casebegin-Initial = 2343    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x204  52
+Differential Attack2 84:0x8010  41
+0b728214
+afterenumerate-afterattack = 0    
+New Case 204
+casebegin-Initial = 2343    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 124:0xf02  52
+Differential Attack2 57:0x6070  27
+240a6f72
+afterenumerate-afterattack = 0    
+New Case 203
+casebegin-Initial = 2359    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 94:0x40a  32
+Differential Attack2 94:0x70f0  30
+b36774fa
+afterenumerate-afterattack = 0    
+New Case 202
+casebegin-Initial = 2359    
+afterinput-casebegin = 0    
+afterattack-afterinput = 16    
+Differential Attack1 108:0x10e  58
+Differential Attack2 74:0x7090  36
+eaaa719e
+afterenumerate-afterattack = 0    
+New Case 201
+casebegin-Initial = 2375    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 79:0xc0c  24
+Differential Attack2 44:0x2050  18
+61292c5c
+afterenumerate-afterattack = 0    
+New Case 200
+casebegin-Initial = 2375    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 85:0xb05  36
+Differential Attack2 92:0x50b0  28
+4c925bb5
+afterenumerate-afterattack = 0    
+New Case 199
+casebegin-Initial = 2375    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 86:0x502  52
+Differential Attack2 54:0xe0e0  14
+c13ae5e2
+afterenumerate-afterattack = 0    
+New Case 198
+casebegin-Initial = 2390    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 70:0xe08  12
+Differential Attack2 72:0xe060  24
+1794ee68
+afterenumerate-afterattack = 0    
+New Case 197
+casebegin-Initial = 2390    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 85:0xf0c  44
+Differential Attack2 50:0x50  26
+3cf90f5c
+afterenumerate-afterattack = 0    
+New Case 196
+casebegin-Initial = 2406    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x308  77
+Differential Attack2 104:0xc0f0  32
+2368c3f8
+afterenumerate-afterattack = 0    
+New Case 195
+casebegin-Initial = 2406    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x60c  72
+Differential Attack2 46:0x60c0  24
+697366cc
+afterenumerate-afterattack = 0    
+New Case 194
+casebegin-Initial = 2422    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 112:0x80c  32
+Differential Attack2 88:0x2020  29
+1234282c
+afterenumerate-afterattack = 0    
+New Case 193
+casebegin-Initial = 2422    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 80:0x101  26
+Differential Attack2 109:0xc030  48
+b452c131
+afterenumerate-afterattack = 0    
+New Case 192
+casebegin-Initial = 2437    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 108:0xb09  50
+Differential Attack2 88:0xd030  28
+4ad5db39
+afterenumerate-afterattack = 0    
+New Case 191
+casebegin-Initial = 2437    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 137:0x504  36
+Differential Attack2 61:0xf0b0  30
+3b47f5b4
+afterenumerate-afterattack = 0    
+New Case 190
+casebegin-Initial = 2453    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x70c  68
+Differential Attack2 70:0xb010  26
+ef28b71c
+afterenumerate-afterattack = 0    
+New Case 189
+casebegin-Initial = 2468    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 80:0x90d  18
+Differential Attack2 115:0xb0b0  32
+edaeb9bd
+afterenumerate-afterattack = 0    
+New Case 188
+casebegin-Initial = 2468    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x300  64
+Differential Attack2 84:0x90  34
+29a90390
+afterenumerate-afterattack = 0    
+New Case 187
+casebegin-Initial = 2484    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x601  30
+Differential Attack2 67:0x8050  32
+454f8651
+afterenumerate-afterattack = 0    
+New Case 186
+casebegin-Initial = 2484    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 92:0x309  72
+Differential Attack2 69:0xc010  24
+e929c319
+afterenumerate-afterattack = 0    
+New Case 185
+casebegin-Initial = 2500    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 116:0x700  46
+Differential Attack2 98:0x6010  48
+87916710
+afterenumerate-afterattack = 0    
+New Case 184
+casebegin-Initial = 2500    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 117:0x50b  80
+Differential Attack2 78:0x7060  40
+49b5756b
+afterenumerate-afterattack = 0    
+New Case 183
+casebegin-Initial = 2515    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 55:0x704  10
+Differential Attack2 67:0xb000  37
+17e7b704
+afterenumerate-afterattack = 0    
+New Case 182
+casebegin-Initial = 2515    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x103  21
+Differential Attack2 79:0xf020  51
+1f37f123
+afterenumerate-afterattack = 0    
+New Case 181
+casebegin-Initial = 2531    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x406  32
+Differential Attack2 83:0xd0a0  14
+c025d4a6
+afterenumerate-afterattack = 0    
+New Case 180
+casebegin-Initial = 2531    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 123:0x606  78
+Differential Attack2 71:0xb050  16
+2ecbb656
+afterenumerate-afterattack = 0    
+New Case 179
+casebegin-Initial = 2547    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 89:0x503  22
+Differential Attack2 69:0xd0f0  16
+972fd5f3
+afterenumerate-afterattack = 0    
+New Case 178
+casebegin-Initial = 2547    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 106:0x108  36
+Differential Attack2 78:0xd070  28
+1993d178
+afterenumerate-afterattack = 0    
+New Case 177
+casebegin-Initial = 2562    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0xe08  32
+Differential Attack2 92:0x50d0  38
+420a5ed8
+afterenumerate-afterattack = 0    
+New Case 176
+casebegin-Initial = 2562    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x105  40
+Differential Attack2 62:0x10a0  24
+465611a5
+afterenumerate-afterattack = 0    
+New Case 175
+casebegin-Initial = 2578    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x10b  42
+Differential Attack2 102:0xe000  24
+d5dbe10b
+afterenumerate-afterattack = 0    
+New Case 174
+casebegin-Initial = 2578    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 115:0xa02  47
+Differential Attack2 82:0x4000  38
+e6af4a02
+afterenumerate-afterattack = 0    
+New Case 173
+casebegin-Initial = 2593    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 88:0xf0e  24
+Differential Attack2 75:0x7040  24
+17ee7f4e
+afterenumerate-afterattack = 0    
+New Case 172
+casebegin-Initial = 2593    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 94:0xa0d  72
+Differential Attack2 71:0x90c0  32
+28bf9acd
+afterenumerate-afterattack = 0    
+New Case 171
+casebegin-Initial = 2609    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0xd05  80
+Differential Attack2 78:0x80e0  46
+b91b8de5
+afterenumerate-afterattack = 0    
+New Case 170
+casebegin-Initial = 2609    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 89:0xe0d  44
+Differential Attack2 81:0x8040  22
+e40e8e4d
+afterenumerate-afterattack = 0    
+New Case 169
+casebegin-Initial = 2625    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 113:0x301  70
+Differential Attack2 78:0xf0b0  44
+73cdf3b1
+afterenumerate-afterattack = 0    
+New Case 168
+casebegin-Initial = 2625    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 140:0xc0f  27
+Differential Attack2 67:0xb020  30
+401ebc2f
+afterenumerate-afterattack = 0    
+New Case 167
+casebegin-Initial = 2640    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0xd  38
+Differential Attack2 65:0x10b0  24
+edbf10bd
+afterenumerate-afterattack = 0    
+New Case 166
+casebegin-Initial = 2640    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 106:0x907  26
+Differential Attack2 61:0x1070  14
+1ed01977
+afterenumerate-afterattack = 0    
+New Case 165
+casebegin-Initial = 2656    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 92:0x207  48
+Differential Attack2 88:0xc020  26
+261dc227
+afterenumerate-afterattack = 0    
+New Case 164
+casebegin-Initial = 2656    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 59:0xa01  12
+Differential Attack2 90:0x1000  48
+377c1a01
+afterenumerate-afterattack = 0    
+New Case 163
+casebegin-Initial = 2672    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 120:0xf0a  27
+Differential Attack2 65:0x8030  22
+71778f3a
+afterenumerate-afterattack = 0    
+New Case 162
+casebegin-Initial = 2672    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 102:0xd0a  22
+Differential Attack2 104:0xd070  58
+1c11dd7a
+afterenumerate-afterattack = 0    
+New Case 161
+casebegin-Initial = 2687    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 99:0xc02  26
+Differential Attack2 86:0x3060  22
+bc563c62
+afterenumerate-afterattack = 0    
+New Case 160
+casebegin-Initial = 2687    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 73:0xc07  12
+Differential Attack2 95:0x30f0  32
+477d3cf7
+afterenumerate-afterattack = 0    
+New Case 159
+casebegin-Initial = 2703    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0x20b  34
+Differential Attack2 78:0x1020  40
+2387122b
+afterenumerate-afterattack = 0    
+New Case 158
+casebegin-Initial = 2703    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 76:0x606  26
+Differential Attack2 73:0x40c0  26
+f54c46c6
+afterenumerate-afterattack = 0    
+New Case 157
+casebegin-Initial = 2718    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 86:0xf06  30
+Differential Attack2 49:0x4060  22
+e3924f66
+afterenumerate-afterattack = 0    
+New Case 156
+casebegin-Initial = 2718    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x70b  64
+Differential Attack2 61:0xf0c0  22
+311cf7cb
+afterenumerate-afterattack = 0    
+New Case 155
+casebegin-Initial = 2734    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 109:0x90c  43
+Differential Attack2 104:0xd000  29
+4fc7d90c
+afterenumerate-afterattack = 0    
+New Case 154
+casebegin-Initial = 2734    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x703  22
+Differential Attack2 46:0x2000  24
+fdad2703
+afterenumerate-afterattack = 0    
+New Case 153
+casebegin-Initial = 2750    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 61:0xa  20
+Differential Attack2 114:0x8000  49
+8d95800a
+afterenumerate-afterattack = 0    
+New Case 152
+casebegin-Initial = 2750    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 117:0x808  30
+Differential Attack2 84:0x8070  38
+4b998878
+afterenumerate-afterattack = 0    
+New Case 151
+casebegin-Initial = 2765    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 120:0x206  32
+Differential Attack2 95:0x4030  29
+19e34236
+afterenumerate-afterattack = 0    
+New Case 150
+casebegin-Initial = 2765    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 128:0xc01  38
+Differential Attack2 70:0x10a0  18
+05db1ca1
+afterenumerate-afterattack = 0    
+New Case 149
+casebegin-Initial = 2781    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0x10e  35
+Differential Attack2 86:0x2090  46
+d041219e
+afterenumerate-afterattack = 0    
+New Case 148
+casebegin-Initial = 2781    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 94:0x305  36
+Differential Attack2 93:0x5040  48
+347f5345
+afterenumerate-afterattack = 0    
+New Case 147
+casebegin-Initial = 2797    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 80:0x808  12
+Differential Attack2 87:0x2090  44
+85ca2898
+afterenumerate-afterattack = 0    
+New Case 146
+casebegin-Initial = 2797    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x7  36
+Differential Attack2 67:0x3020  34
+05383027
+afterenumerate-afterattack = 15    
+New Case 145
+casebegin-Initial = 2812    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 93:0xf03  37
+Differential Attack2 72:0xa060  34
+584aaf63
+afterenumerate-afterattack = 0    
+New Case 144
+casebegin-Initial = 2812    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 112:0x50a  20
+Differential Attack2 106:0xa090  28
+4c9ba59a
+afterenumerate-afterattack = 16    
+New Case 143
+casebegin-Initial = 2828    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x0  29
+Differential Attack2 76:0x90  46
+d5f70090
+afterenumerate-afterattack = 0    
+New Case 142
+casebegin-Initial = 2828    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 72:0xf01  24
+Differential Attack2 73:0xa090  40
+fce6af91
+afterenumerate-afterattack = 0    
+New Case 141
+casebegin-Initial = 2843    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 73:0xc01  23
+Differential Attack2 58:0x90d0  20
+1dca9cd1
+afterenumerate-afterattack = 0    
+New Case 140
+casebegin-Initial = 2843    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 95:0xd07  62
+Differential Attack2 78:0x7090  26
+3afd7d97
+afterenumerate-afterattack = 0    
+New Case 139
+casebegin-Initial = 2859    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 101:0xa06  85
+Differential Attack2 82:0x6030  18
+b8be6a36
+afterenumerate-afterattack = 0    
+New Case 138
+casebegin-Initial = 2859    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 71:0xb04  20
+Differential Attack2 69:0x6050  22
+fc666b54
+afterenumerate-afterattack = 0    
+New Case 137
+casebegin-Initial = 2875    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 123:0x602  29
+Differential Attack2 89:0x40a0  34
+7fe146a2
+afterenumerate-afterattack = 0    
+New Case 136
+casebegin-Initial = 2875    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x506  28
+Differential Attack2 96:0x6050  26
+4a7a6556
+afterenumerate-afterattack = 0    
+New Case 135
+casebegin-Initial = 2890    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x606  22
+Differential Attack2 64:0xd040  40
+f7dfd646
+afterenumerate-afterattack = 0    
+New Case 134
+casebegin-Initial = 2890    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 113:0xc  25
+Differential Attack2 93:0xf080  45
+047cf08c
+afterenumerate-afterattack = 0    
+New Case 133
+casebegin-Initial = 2906    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x700  18
+Differential Attack2 56:0x30b0  30
+0c1d37b0
+afterenumerate-afterattack = 0    
+New Case 132
+casebegin-Initial = 2906    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 82:0xc0f  29
+Differential Attack2 63:0xf050  18
+3d9cfc5f
+afterenumerate-afterattack = 16    
+New Case 131
+casebegin-Initial = 2922    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 109:0xa01  50
+Differential Attack2 53:0x7020  18
+5a967a21
+afterenumerate-afterattack = 0    
+New Case 130
+casebegin-Initial = 2922    
+afterinput-casebegin = 0    
+afterattack-afterinput = 15    
+Differential Attack1 113:0x1  29
+Differential Attack2 79:0xc0  18
+0edf00c1
+afterenumerate-afterattack = 0    
+New Case 129
+casebegin-Initial = 2937    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xb08  56
+Differential Attack2 70:0xf0d0  28
+aeb2fbd8
+afterenumerate-afterattack = 0    
+New Case 128
+casebegin-Initial = 2937    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 119:0x90c  53
+Differential Attack2 82:0xc0c0  44
+1518c9cc
+afterenumerate-afterattack = 0    
+New Case 127
+casebegin-Initial = 2953    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 112:0x708  80
+Differential Attack2 84:0xe070  24
+29abe778
+afterenumerate-afterattack = 0    
+New Case 126
+casebegin-Initial = 2953    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 124:0x20b  72
+Differential Attack2 89:0xb0f0  42
+f5e1b2fb
+afterenumerate-afterattack = 0    
+New Case 125
+casebegin-Initial = 2968    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0xa08  42
+Differential Attack2 61:0xb010  22
+fb56ba18
+afterenumerate-afterattack = 0    
+New Case 124
+casebegin-Initial = 2968    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 119:0x800  72
+Differential Attack2 95:0xd0  38
+3a7a08d0
+afterenumerate-afterattack = 0    
+New Case 123
+casebegin-Initial = 2984    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 127:0x807  60
+Differential Attack2 67:0x20b0  28
+50e228b7
+afterenumerate-afterattack = 0    
+New Case 122
+casebegin-Initial = 2984    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 89:0x600  37
+Differential Attack2 68:0xd0f0  37
+f6c0d6f0
+afterenumerate-afterattack = 0    
+New Case 121
+casebegin-Initial = 3000    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 95:0x401  30
+Differential Attack2 71:0x70d0  18
+837d74d1
+afterenumerate-afterattack = 0    
+New Case 120
+casebegin-Initial = 3000    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 92:0xd02  73
+Differential Attack2 53:0x6080  28
+13596d82
+afterenumerate-afterattack = 0    
+New Case 119
+casebegin-Initial = 3015    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 120:0x50f  50
+Differential Attack2 66:0xa0e0  44
+0105a5ef
+afterenumerate-afterattack = 0    
+New Case 118
+casebegin-Initial = 3015    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x90a  13
+Differential Attack2 80:0xc0d0  30
+0ddfc9da
+afterenumerate-afterattack = 0    
+New Case 117
+casebegin-Initial = 3031    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 82:0x501  46
+Differential Attack2 52:0xc050  23
+fbe5c551
+afterenumerate-afterattack = 0    
+New Case 116
+casebegin-Initial = 3031    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 121:0x40a  56
+Differential Attack2 47:0xa080  20
+343aa48a
+afterenumerate-afterattack = 0    
+New Case 115
+casebegin-Initial = 3047    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 81:0xe03  17
+Differential Attack2 60:0xe000  28
+acceee03
+afterenumerate-afterattack = 0    
+New Case 114
+casebegin-Initial = 3047    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 86:0xf0d  21
+Differential Attack2 91:0x8090  47
+0f7c8f9d
+afterenumerate-afterattack = 0    
+New Case 113
+casebegin-Initial = 3062    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x808  24
+Differential Attack2 107:0x5030  39
+51ef5838
+afterenumerate-afterattack = 0    
+New Case 112
+casebegin-Initial = 3062    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 114:0x408  44
+Differential Attack2 73:0x4040  22
+14bb4448
+afterenumerate-afterattack = 0    
+New Case 111
+casebegin-Initial = 3062    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 145:0xd0b  38
+Differential Attack2 55:0xf0c0  20
+df75fdcb
+afterenumerate-afterattack = 0    
+New Case 110
+casebegin-Initial = 3078    
+afterinput-casebegin = 0    
+afterattack-afterinput = 15    
+Differential Attack1 116:0x80f  55
+Differential Attack2 71:0x50e0  28
+f44258ef
+afterenumerate-afterattack = 0    
+New Case 109
+casebegin-Initial = 3093    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 69:0x902  11
+Differential Attack2 48:0x60a0  22
+0e2b69a2
+afterenumerate-afterattack = 0    
+New Case 108
+casebegin-Initial = 3093    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x406  71
+Differential Attack2 92:0xa000  20
+3359a406
+afterenumerate-afterattack = 0    
+New Case 107
+casebegin-Initial = 3109    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0xf0c  6
+Differential Attack2 64:0x9000  34
+a6fe9f0c
+afterenumerate-afterattack = 0    
+New Case 106
+casebegin-Initial = 3109    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 107:0xc0a  52
+Differential Attack2 43:0x90a0  20
+ffe39caa
+afterenumerate-afterattack = 0    
+New Case 105
+casebegin-Initial = 3125    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 114:0x708  26
+Differential Attack2 85:0xa050  34
+2424a758
+afterenumerate-afterattack = 0    
+New Case 104
+casebegin-Initial = 3125    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 98:0x201  72
+Differential Attack2 57:0x80c0  21
+12df82c1
+afterenumerate-afterattack = 0    
+New Case 103
+casebegin-Initial = 3140    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 79:0xf0d  21
+Differential Attack2 80:0x6050  34
+f5596f5d
+afterenumerate-afterattack = 0    
+New Case 102
+casebegin-Initial = 3140    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 89:0x60e  18
+Differential Attack2 72:0x90  14
+06bd069e
+afterenumerate-afterattack = 0    
+New Case 101
+casebegin-Initial = 3156    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 93:0x40a  51
+Differential Attack2 80:0xd0e0  32
+0df0d4ea
+afterenumerate-afterattack = 0    
+New Case 100
+casebegin-Initial = 3156    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 79:0x904  12
+Differential Attack2 51:0xe0  14
+17b109e4
+afterenumerate-afterattack = 0    
+New Case 99
+casebegin-Initial = 3172    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 110:0xd0a  44
+Differential Attack2 86:0x80f0  40
+58ba8dfa
+afterenumerate-afterattack = 0    
+New Case 98
+casebegin-Initial = 3172    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x60a  17
+Differential Attack2 89:0xe090  34
+06ffe69a
+afterenumerate-afterattack = 0    
+New Case 97
+casebegin-Initial = 3187    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 98:0xe01  61
+Differential Attack2 86:0x80  20
+a5b30e81
+afterenumerate-afterattack = 0    
+New Case 96
+casebegin-Initial = 3187    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 112:0x607  15
+Differential Attack2 105:0x3010  42
+9f9c3617
+afterenumerate-afterattack = 0    
+New Case 95
+casebegin-Initial = 3203    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 77:0x902  18
+Differential Attack2 83:0x20c0  28
+7d4c29c2
+afterenumerate-afterattack = 0    
+New Case 94
+casebegin-Initial = 3203    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 109:0xd00  62
+Differential Attack2 111:0x5020  34
+ffa15d20
+afterenumerate-afterattack = 0    
+New Case 93
+casebegin-Initial = 3218    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 151:0xf03  60
+Differential Attack2 71:0x7080  22
+f0737f83
+afterenumerate-afterattack = 0    
+New Case 92
+casebegin-Initial = 3218    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 110:0xd0a  60
+Differential Attack2 59:0xe020  22
+00f2ed2a
+afterenumerate-afterattack = 0    
+New Case 91
+casebegin-Initial = 3234    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 99:0xd0c  64
+Differential Attack2 49:0xc0e0  24
+5806cdec
+afterenumerate-afterattack = 0    
+New Case 90
+casebegin-Initial = 3234    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 114:0x10f  64
+Differential Attack2 104:0x30f0  44
+fe4431ff
+afterenumerate-afterattack = 0    
+New Case 89
+casebegin-Initial = 3250    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x30e  72
+Differential Attack2 78:0x90e0  24
+d25893ee
+afterenumerate-afterattack = 15    
+New Case 88
+casebegin-Initial = 3265    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 90:0xb0d  30
+Differential Attack2 76:0x90d0  35
+987c9bdd
+afterenumerate-afterattack = 0    
+New Case 87
+casebegin-Initial = 3265    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 109:0x804  61
+Differential Attack2 57:0x50f0  22
+0b2458f4
+afterenumerate-afterattack = 0    
+New Case 86
+casebegin-Initial = 3281    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 122:0xe05  30
+Differential Attack2 67:0x2000  31
+033a2e05
+afterenumerate-afterattack = 0    
+New Case 85
+casebegin-Initial = 3281    
+afterinput-casebegin = 0    
+afterattack-afterinput = 16    
+Differential Attack1 87:0x202  33
+Differential Attack2 50:0x3060  28
+e5ac3262
+afterenumerate-afterattack = 0    
+New Case 84
+casebegin-Initial = 3297    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x500  50
+Differential Attack2 64:0x40b0  19
+0e9645b0
+afterenumerate-afterattack = 0    
+New Case 83
+casebegin-Initial = 3297    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 86:0xf03  19
+Differential Attack2 48:0x1070  26
+b6261f73
+afterenumerate-afterattack = 0    
+New Case 82
+casebegin-Initial = 3297    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 111:0xa0c  44
+Differential Attack2 50:0x60c0  20
+15d86acc
+afterenumerate-afterattack = 0    
+New Case 81
+casebegin-Initial = 3312    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 113:0xc0e  28
+Differential Attack2 81:0xb0a0  38
+539bbcae
+afterenumerate-afterattack = 0    
+New Case 80
+casebegin-Initial = 3312    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 92:0xb03  20
+Differential Attack2 70:0x9050  26
+9e1f9b53
+afterenumerate-afterattack = 0    
+New Case 79
+casebegin-Initial = 3328    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 106:0xa00  56
+Differential Attack2 40:0x60  26
+a1100a60
+afterenumerate-afterattack = 0    
+New Case 78
+casebegin-Initial = 3328    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 125:0x104  38
+Differential Attack2 39:0xb070  28
+e306b174
+afterenumerate-afterattack = 0    
+New Case 77
+casebegin-Initial = 3343    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 77:0xd0a  16
+Differential Attack2 91:0x8030  58
+062f8d3a
+afterenumerate-afterattack = 0    
+New Case 76
+casebegin-Initial = 3343    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x9  64
+Differential Attack2 65:0x4070  28
+09344079
+afterenumerate-afterattack = 0    
+New Case 75
+casebegin-Initial = 3359    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x903  24
+Differential Attack2 70:0x70d0  30
+ae5a79d3
+afterenumerate-afterattack = 0    
+New Case 74
+casebegin-Initial = 3359    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 84:0x801  22
+Differential Attack2 107:0x40f0  44
+e5c748f1
+afterenumerate-afterattack = 0    
+New Case 73
+casebegin-Initial = 3375    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 114:0x7  60
+Differential Attack2 67:0x5040  26
+0e045047
+afterenumerate-afterattack = 0    
+New Case 72
+casebegin-Initial = 3375    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 85:0x70b  23
+Differential Attack2 45:0x7080  28
+911d778b
+afterenumerate-afterattack = 0    
+New Case 71
+casebegin-Initial = 3390    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 86:0xa0b  16
+Differential Attack2 92:0x8080  36
+ed648a8b
+afterenumerate-afterattack = 16    
+New Case 70
+casebegin-Initial = 3406    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 118:0x301  54
+Differential Attack2 72:0xf040  28
+1a9bf341
+afterenumerate-afterattack = 0    
+New Case 69
+casebegin-Initial = 3406    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x101  38
+Differential Attack2 74:0x2010  31
+13742111
+afterenumerate-afterattack = 0    
+New Case 68
+casebegin-Initial = 3422    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 110:0x407  64
+Differential Attack2 100:0xf0b0  48
+0f75f4b7
+afterenumerate-afterattack = 0    
+New Case 67
+casebegin-Initial = 3422    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 93:0x805  18
+Differential Attack2 76:0x60c0  36
+407e68c5
+afterenumerate-afterattack = 15    
+New Case 66
+casebegin-Initial = 3437    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 95:0x700  44
+Differential Attack2 82:0x1000  40
+1c3a1700
+afterenumerate-afterattack = 0    
+New Case 65
+casebegin-Initial = 3437    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x70e  24
+Differential Attack2 87:0xe060  54
+bd4fe76e
+afterenumerate-afterattack = 0    
+New Case 64
+casebegin-Initial = 3437    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 94:0x205  24
+Differential Attack2 81:0xd000  24
+97fcd205
+afterenumerate-afterattack = 0    
+New Case 63
+casebegin-Initial = 3453    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 68:0x80d  6
+Differential Attack2 62:0xd090  26
+5748d89d
+afterenumerate-afterattack = 0    
+New Case 62
+casebegin-Initial = 3453    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 127:0x802  36
+Differential Attack2 63:0x8030  28
+e2058832
+afterenumerate-afterattack = 0    
+New Case 61
+casebegin-Initial = 3468    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 113:0x408  80
+Differential Attack2 58:0xc0d0  36
+f293c4d8
+afterenumerate-afterattack = 0    
+New Case 60
+casebegin-Initial = 3468    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 91:0xa05  40
+Differential Attack2 45:0xc0b0  12
+Differential Attack2 44:0xc030  12
+Differential Attack2 43:0xd0b0  10
+Differential Attack2 42:0xd030  10
+Differential Attack2 41:0xc090  10
+Differential Attack2 40:0x50b0  10
+Differential Attack2 39:0x5030  10
+00975a35
+afterenumerate-afterattack = 0    
+New Case 59
+casebegin-Initial = 3484    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 97:0xa0a  54
+Differential Attack2 73:0x3070  33
+5a063a7a
+afterenumerate-afterattack = 0    
+New Case 58
+casebegin-Initial = 3500    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 101:0xc05  25
+Differential Attack2 66:0xc020  30
+e424cc25
+afterenumerate-afterattack = 0    
+New Case 57
+casebegin-Initial = 3500    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 119:0xe0c  39
+Differential Attack2 81:0x40b0  33
+f8dc4ebc
+afterenumerate-afterattack = 0    
+New Case 56
+casebegin-Initial = 3515    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 123:0xa06  29
+Differential Attack2 106:0x7060  40
+909a7a66
+afterenumerate-afterattack = 0    
+New Case 55
+casebegin-Initial = 3515    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 122:0xe0b  80
+Differential Attack2 67:0xa000  26
+19f8ae0b
+afterenumerate-afterattack = 0    
+New Case 54
+casebegin-Initial = 3531    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 88:0xf0f  44
+Differential Attack2 85:0xd010  52
+1138df1f
+afterenumerate-afterattack = 0    
+New Case 53
+casebegin-Initial = 3547    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 42:0xf08  7
+Differential Attack2 72:0x70b0  30
+ed087fb8
+afterenumerate-afterattack = 0    
+New Case 52
+casebegin-Initial = 3547    
+afterinput-casebegin = 0    
+afterattack-afterinput = 15    
+Differential Attack1 90:0xa0b  41
+Differential Attack2 50:0x1060  20
+06d61a6b
+afterenumerate-afterattack = 0    
+New Case 51
+casebegin-Initial = 3562    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 95:0x20c  25
+Differential Attack2 74:0xf0e0  54
+ba23f2ec
+afterenumerate-afterattack = 0    
+New Case 50
+casebegin-Initial = 3562    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 95:0xf03  51
+Differential Attack2 59:0x9050  28
+15b99f53
+afterenumerate-afterattack = 0    
+New Case 49
+casebegin-Initial = 3578    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 103:0x305  60
+Differential Attack2 137:0x40d0  46
+4f1343d5
+afterenumerate-afterattack = 0    
+New Case 48
+casebegin-Initial = 3578    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 81:0xe0e  26
+Differential Attack2 70:0x70a0  20
+8c5a7eae
+afterenumerate-afterattack = 0    
+New Case 47
+casebegin-Initial = 3578    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xf04  61
+Differential Attack2 69:0xe030  24
+a8b4ef34
+afterenumerate-afterattack = 0    
+New Case 46
+casebegin-Initial = 3593    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x50f  36
+Differential Attack2 49:0x4000  20
+e9a7450f
+afterenumerate-afterattack = 0    
+New Case 45
+casebegin-Initial = 3593    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x201  48
+Differential Attack2 107:0x7060  14
+1ccb7261
+afterenumerate-afterattack = 0    
+New Case 44
+casebegin-Initial = 3609    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 109:0x703  77
+Differential Attack2 68:0xb0a0  30
+03b4b7a3
+afterenumerate-afterattack = 0    
+New Case 43
+casebegin-Initial = 3609    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x8  22
+Differential Attack2 110:0xa0b0  52
+b437a0b8
+afterenumerate-afterattack = 0    
+New Case 42
+casebegin-Initial = 3625    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 84:0x102  18
+Differential Attack2 65:0xa040  24
+ed03a142
+afterenumerate-afterattack = 0    
+New Case 41
+casebegin-Initial = 3625    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 96:0xc0c  48
+Differential Attack2 70:0xb090  20
+0ee0bc9c
+afterenumerate-afterattack = 0    
+New Case 40
+casebegin-Initial = 3640    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 101:0xa00  33
+Differential Attack2 92:0x8030  32
+8b398a30
+afterenumerate-afterattack = 0    
+New Case 39
+casebegin-Initial = 3640    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 98:0xd00  16
+Differential Attack2 72:0x70b0  36
+e6807db0
+afterenumerate-afterattack = 0    
+New Case 38
+casebegin-Initial = 3656    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 106:0xe08  60
+Differential Attack2 71:0x1070  24
+103f1e78
+afterenumerate-afterattack = 16    
+New Case 37
+casebegin-Initial = 3672    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 87:0xc0a  32
+Differential Attack2 88:0xd000  52
+1b54dc0a
+afterenumerate-afterattack = 0    
+New Case 36
+casebegin-Initial = 3672    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 108:0x30d  40
+Differential Attack2 85:0x1020  28
+0c51132d
+afterenumerate-afterattack = 0    
+New Case 35
+casebegin-Initial = 3672    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 97:0x607  28
+Differential Attack2 92:0x9010  34
+4e5f9617
+afterenumerate-afterattack = 0    
+New Case 34
+casebegin-Initial = 3687    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0x20f  44
+Differential Attack2 87:0xf070  56
+151ef27f
+afterenumerate-afterattack = 0    
+New Case 33
+casebegin-Initial = 3687    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 106:0xc  63
+Differential Attack2 92:0x1070  22
+b36b107c
+afterenumerate-afterattack = 0    
+New Case 32
+casebegin-Initial = 3703    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0x30a  80
+Differential Attack2 104:0x20f0  30
+895123fa
+afterenumerate-afterattack = 15    
+New Case 31
+casebegin-Initial = 3718    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 83:0xd06  22
+Differential Attack2 67:0x3000  36
+4ca83d06
+afterenumerate-afterattack = 0    
+New Case 30
+casebegin-Initial = 3718    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 78:0xf0d  18
+Differential Attack2 118:0x60d0  64
+e0406fdd
+afterenumerate-afterattack = 16    
+New Case 29
+casebegin-Initial = 3734    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 109:0x10e  60
+Differential Attack2 59:0x2060  21
+ea9f216e
+afterenumerate-afterattack = 0    
+New Case 28
+casebegin-Initial = 3734    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 91:0xb06  58
+Differential Attack2 81:0xb0e0  44
+0e13bbe6
+afterenumerate-afterattack = 0    
+New Case 27
+casebegin-Initial = 3734    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 98:0x701  40
+Differential Attack2 66:0xd000  33
+42ebd701
+afterenumerate-afterattack = 0    
+New Case 26
+casebegin-Initial = 3750    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 79:0xb0e  6
+Differential Attack2 79:0x2010  26
+e6812b1e
+afterenumerate-afterattack = 0    
+New Case 25
+casebegin-Initial = 3750    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 91:0xf05  54
+Differential Attack2 94:0xb020  26
+e0bcbf25
+afterenumerate-afterattack = 0    
+New Case 24
+casebegin-Initial = 3765    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 71:0x704  24
+Differential Attack2 98:0xa030  34
+8692a734
+afterenumerate-afterattack = 16    
+New Case 23
+casebegin-Initial = 3781    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 96:0xf09  36
+Differential Attack2 98:0x6010  16
+10dc6f19
+afterenumerate-afterattack = 0    
+New Case 22
+casebegin-Initial = 3781    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 112:0xc  80
+Differential Attack2 105:0x30e0  17
+19dc30ec
+afterenumerate-afterattack = 0    
+New Case 21
+casebegin-Initial = 3781    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 112:0xc07  47
+Differential Attack2 47:0x80a0  22
+ef4c8ca7
+afterenumerate-afterattack = 0    
+New Case 20
+casebegin-Initial = 3797    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 105:0xe06  80
+Differential Attack2 75:0xf070  46
+0973fe76
+afterenumerate-afterattack = 0    
+New Case 19
+casebegin-Initial = 3812    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 102:0x507  39
+Differential Attack2 63:0xb0  16
+b88705b7
+afterenumerate-afterattack = 0    
+New Case 18
+casebegin-Initial = 3812    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 96:0x909  55
+Differential Attack2 71:0x4020  26
+1e3d4929
+afterenumerate-afterattack = 0    
+New Case 17
+casebegin-Initial = 3828    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 95:0x60e  50
+Differential Attack2 78:0x8040  36
+4537864e
+afterenumerate-afterattack = 0    
+New Case 16
+casebegin-Initial = 3828    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x904  64
+Differential Attack2 106:0x80b0  52
+80f689b4
+afterenumerate-afterattack = 0    
+New Case 15
+casebegin-Initial = 3843    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 101:0xb0f  22
+Differential Attack2 68:0x10c0  14
+baf01bcf
+afterenumerate-afterattack = 0    
+New Case 14
+casebegin-Initial = 3843    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 107:0x201  36
+Differential Attack2 73:0xf090  17
+c1cbf291
+afterenumerate-afterattack = 16    
+New Case 13
+casebegin-Initial = 3859    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 112:0x70e  30
+Differential Attack2 70:0x80c0  20
+30e287ce
+afterenumerate-afterattack = 0    
+New Case 12
+casebegin-Initial = 3859    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 67:0xa08  12
+Differential Attack2 61:0x4090  20
+17904a98
+afterenumerate-afterattack = 0    
+New Case 11
+casebegin-Initial = 3875    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 93:0x500  37
+Differential Attack2 67:0x1020  40
+96b71520
+afterenumerate-afterattack = 0    
+New Case 10
+casebegin-Initial = 3875    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 118:0x608  64
+Differential Attack2 71:0x5010  36
+c32a5618
+afterenumerate-afterattack = 0    
+New Case 9
+casebegin-Initial = 3875    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 88:0xb06  31
+Differential Attack2 74:0x40e0  23
+14ed4be6
+afterenumerate-afterattack = 0    
+New Case 8
+casebegin-Initial = 3890    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 89:0xc0b  38
+Differential Attack2 87:0x6060  36
+87956c6b
+afterenumerate-afterattack = 0    
+New Case 7
+casebegin-Initial = 3890    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 104:0x80b  30
+Differential Attack2 81:0x90e0  42
+e88098eb
+afterenumerate-afterattack = 0    
+New Case 6
+casebegin-Initial = 3906    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 123:0x902  40
+Differential Attack2 63:0xc0a0  30
+2876c9a2
+afterenumerate-afterattack = 0    
+New Case 5
+casebegin-Initial = 3906    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 93:0xa0e  44
+Differential Attack2 74:0x30d0  16
+01b13ade
+afterenumerate-afterattack = 0    
+New Case 4
+casebegin-Initial = 3922    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 85:0x202  29
+Differential Attack2 82:0xe050  26
+1090e252
+afterenumerate-afterattack = 0    
+New Case 3
+casebegin-Initial = 3922    
+afterinput-casebegin = 15    
+afterattack-afterinput = 0    
+Differential Attack1 99:0x70c  16
+Differential Attack2 75:0x5000  28
+569b570c
+afterenumerate-afterattack = 0    
+New Case 2
+casebegin-Initial = 3937    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 106:0xd0c  32
+Differential Attack2 80:0x60  48
+23b60d6c
+afterenumerate-afterattack = 0    
+New Case 1
+casebegin-Initial = 3937    
+afterinput-casebegin = 16    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x407  64
+Differential Attack2 74:0xe0a0  30
+b3aae4a7
+afterenumerate-afterattack = 0    
+New Case 0
+casebegin-Initial = 3953    
+afterinput-casebegin = 0    
+afterattack-afterinput = 0    
+Differential Attack1 100:0x401  72
+Differential Attack2 76:0xc0a0  30
+8915c4a1
+afterenumerate-afterattack = 0    
+FinalTime-Initial = 3953    
