@@ -1,3 +1,5 @@
+
+
 # Cryptography_course_design
 
 ## 概述
@@ -17,3 +19,4 @@
 * T2-2nd-Linear .txt和T2-3rd-Linear .txt是我利用大量数据做分析得到的线性链，但是实际用起来效果很差。
 * test.cpp和wq.cpp是两个测试用的文件，并不是最终代码
 * 感谢syx大佬，sac大佬和ljl大佬，带有他们名字的是他们的代码orz
+* **编译提示**：部分代码（如 RSA 实现）依赖 GMP 库，编译时请附加 `-lgmp -lgmpxx` 参数。
